@@ -1,0 +1,59 @@
+{
+  "nome": "Benedito Leite",
+  
+  "imagens": [
+    "bl1.jpg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Em que ano o município de Benedito Leite foi originalmente criado?",
+      "opcoes": [
+        "1919",
+        "1931",
+        "1935",
+        "1925"
+      ],
+      "resposta_certa": "1919"
+    },
+    {
+      "pergunta": "Qual foi o responsável pela fundação de Benedito Leite?",
+      "opcoes": [
+        "Senador Benedito Pereira Leite",
+        "Major Lucas Coelho",
+        "Governador do Maranhão",
+        "Padre José da Silva"
+      ],
+      "resposta_certa": "Major Lucas Coelho"
+    },
+    {
+      "pergunta": "Benedito Leite recebeu esse nome em homenagem a quem?",
+      "opcoes": [
+        "Major Lucas Coelho",
+        "Senador Benedito Pereira Leite",
+        "Presidente do Maranhão",
+        "Um líder local indígena"
+      ],
+      "resposta_certa": "Senador Benedito Pereira Leite"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante do município?",
+      "opcoes": [
+        "Amazônia",
+        "Caatinga",
+        "Cerrado",
+        "Mata Atlântica"
+      ],
+      "resposta_certa": "Cerrado"
+    },
+    {
+      "pergunta": "Benedito Leite foi beneficiada com uma ponte que liga a cidade a qual município?",
+      "opcoes": [
+        "São Luís",
+        "Uruçuí (Piauí)",
+        "Nova Iorque (Maranhão)",
+        "Timon"
+      ],
+      "resposta_certa": "Uruçuí (Piauí)"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nome": "Barreirinhas",
+      "imagens" : [
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Barreirinhas é mundialmente conhecida por ser o principal portal de entrada para qual famoso parque nacional?",
+      "opcoes": ["Parque Nacional da Chapada Diamantina", "Parque Nacional dos Lençóis Maranhenses", "Parque Nacional da Serra da Capivara", "Parque Nacional do Iguaçu"],
+      "respostaCorreta": "Parque Nacional dos Lençóis Maranhenses"
+    },
+    {
+      "pergunta": "Qual rio importante banha a cidade e é utilizado para passeios de barco até o Parque Nacional?",
+      "opcoes": ["Rio Itapecuru", "Rio Parnaíba", "Rio Preguiças", "Rio Mearim"],
+      "respostaCorreta": "Rio Preguiças"
+    },
+
+    {
+      "pergunta": "Qual é a principal base da economia de Barreirinhas?",
+      "opcoes": ["Agricultura", "Pecuária", "Turismo", "Indústria"],
+      "respostaCorreta": "Turismo"
+    },
+    {
+      "pergunta": "O que caracteriza a paisagem do Parque Nacional dos Lençóis Maranhenses na região de Barreirinhas?",
+      "opcoes": ["Florestas densas e mata atlântica", "Vastas planícies e campos abertos", "Dunas de areia branca e lagoas sazonais", "Relevo montanhoso e rochoso"],
+      "respostaCorreta": "Dunas de areia branca e lagoas sazonais"
+    },
+    {
+      "pergunta": "Qual comunidade de pescadores é um dos principais destinos de passeio de barco a partir de Barreirinhas, localizada entre o Rio Preguiças e o mar?",
+      "opcoes": ["Canto do Atins", "Caburé", "Mandacaru", "Vassouras"],
+      "respostaCorreta": "Caburé"
+    },
+    {
+      "pergunta": "O que se forma nas dunas dos Lençóis Maranhenses durante o período chuvoso?",
+      "opcoes": ["Rios de águas escuras", "Cachoeiras", "Grandes lagoas de água doce", "Vegetação rasteira"],
+      "respostaCorreta": "Grandes lagoas de água doce"
+    },
+    {
+      "pergunta": "A cidade está localizada na margem de qual dos seguintes corpos d'água?",
+      "opcoes": ["Oceano Atlântico", "Baía de São Marcos", "Lagoa da Jansen", "Rio Preguiças"],
+      "respostaCorreta": "Rio Preguiças"
+    }
+  ]
+}
