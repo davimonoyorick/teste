@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Intinerante</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+   
+    <div id="game-container">
+      <div id="map-container"></div>
+
+      <img src="components/itinerante-logo.png" id="logo-jogo" alt="Logo do Jogo" />
+      <div id="truck">
+        <img src="truck.png" id="caminhao" alt="caminhao" />
+      </div>
+
+      <div id="quiz-modal-overlay">
+        <div id="quiz-modal-content">
+          <h2 id="quiz-city-name">Quiz: Nome da Cidade</h2>
+          <p id="quiz-pergunta">A pergunta do quiz aparecerá aqui.</p>
+          <ul id="quiz-opcoes"></ul>
+          <div id="quiz-feedback"></div>
+
+          <div id="quiz-imagem" style="display: none">
+            <img id="quiz-img" src="" alt="Imagem de destaque" />
+          </div>
+
+          <div id="travel-bar-container">
+            <div id="travel-bar">
+              <div id="travel-bar-progress"></div>
+            </div>
+            <img id="travel-bar-truck" src="truck.png" alt="Caminhão" />
+          </div>
+
+          <button id="quiz-close-btn">Fechar</button>
+        </div>
+      </div>
+
+            </div> <div id="start-menu-overlay">
+        <div id="start-menu-content">
+          <p>
+            Ajude a Unidade Móvel do SESI Itinerante a chegar nos municípios do
+            Maranhão.
+          </p>
+          <button id="start-game-btn">Iniciar Jogo</button>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

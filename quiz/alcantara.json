@@ -1,0 +1,44 @@
+{
+  "nome": "Alcântara",
+  "imagens" : [
+    "ALC2.JPG",
+    "ALC4.JPG"
+  ],
+ "perguntas": [
+    {
+      "pergunta": "Alcântara é mundialmente famosa por abrigar qual importante instalação brasileira?",
+      "opcoes": ["O maior observatório astronômico", "Centro de Lançamento de Foguetes", "A principal usina nuclear", "O maior porto do Brasil"],
+      "respostaCorreta": "Centro de Lançamento de Foguetes"
+    },
+    {
+      "pergunta": "O Centro de Lançamento de Alcântara (CLA) é conhecido por sua localização estratégica. Qual é a principal vantagem dessa localização?",
+      "opcoes": ["Acesso fácil a recursos de mão de obra qualificada", "Proximidade com o equador, facilitando lançamentos espaciais", "Clima temperado que favorece operações durante todo o ano", "Isolamento que minimiza riscos para áreas povoadas"],
+      "respostaCorreta": "Proximidade com o equador, facilitando lançamentos espaciais"
+    },
+    {
+      "pergunta": "Qual das seguintes construções religiosas em Alcântara está mais associada a uma das ruínas mais famosas da cidade?",
+      "opcoes": ["Igreja de Nossa Senhora do Rosário dos Pretos", "Capela de São Francisco", "Igreja da Matriz de São Matias", "Igreja de Nossa Senhora da Ajuda"],
+      "respostaCorreta": "Igreja da Matriz de São Matias"
+    },
+    {
+      "pergunta": "Qual evento cultural é um dos mais famosos em Alcântara?",
+      "opcoes": ["Festa do Divino Espírito Santo", "Carnaval de rua", "Festival de Tambor de Crioula", "Procissão do Círio de Nazaré"],
+      "respostaCorreta": "Festa do Divino Espírito Santo"
+    },
+    {
+      "pergunta": "O que caracteriza a arquitetura do centro histórico de Alcântara?",
+      "opcoes": ["Edifícios modernos com design futurista", "Construções coloniais portuguesas bem preservadas", "Arquitetura indígena tradicional", "Estilo barroco com influências africanas"],
+      "respostaCorreta": "Construções coloniais portuguesas bem preservadas"
+    },
+    {
+      "pergunta": "A cidade de Alcântara prosperou economicamente no século XIX. Qual produto agrícola foi o motor de sua riqueza nesse período?",
+      "opcoes": ["Cana-de-açúcar", "Café", "Algodão", "Cacau"],
+      "respostaCorreta": "Algodão"
+    },
+    {
+      "pergunta": "A história de Alcântara está intimamente ligada a qual importante grupo populacional que preserva suas tradições culturais até hoje?",
+      "opcoes": ["Comunidades indígenas", "Imigrantes libaneses", "Comunidades quilombolas", "Migrantes europeus"],
+      "respostaCorreta": "Comunidades quilombolas"
+    }
+  ]
+}
