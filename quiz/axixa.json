@@ -1,0 +1,55 @@
+{
+  "nome": "Axixá",
+  "perguntas": [
+    {
+      "pergunta": "De qual município Axixá se desmembrou para se tornar uma vila e, posteriormente, uma cidade?",
+      "opcoes": ["Morros", "Rosário", "Icatu", "Cachoeira Grande"],
+      "respostaCorreta": "Icatu"
+    },
+    {
+      "pergunta": "A origem do nome 'Axixá' é de qual língua indígena?",
+      "opcoes": ["Tupi-Guarani", "Jê", "Aruak", "Pano"],
+      "respostaCorreta": "Tupi-Guarani"
+    },
+    {
+      "pergunta": "O nome 'Axixá' deriva de 'A'xixá'. Qual é o significado original desse termo?",
+      "opcoes": ["Fruta saborosa", "Árvore de madeira forte", "Lugar de águas claras", "A árvore Axixá"],
+      "respostaCorreta": "A árvore Axixá"
+    },
+    {
+      "pergunta": "Qual rio banha a cidade de Axixá e é um importante ponto de referência local?",
+      "opcoes": ["Rio Itapecuru", "Rio Parnaíba", "Rio Munim", "Rio Mearim"],
+      "respostaCorreta": "Rio Munim"
+    },
+    {
+      "pergunta": "Qual das seguintes manifestações culturais é uma das mais tradicionais e famosas de Axixá?",
+      "opcoes": ["Cacuriá", "Tambor de Crioula", "Bumba Meu Boi", "Festa do Divino Espírito Santo"],
+      "respostaCorreta": "Bumba Meu Boi"
+    },
+    {
+      "pergunta": "A cidade é um dos principais representantes de qual 'sotaque' do Bumba Meu Boi?",
+      "opcoes": ["Sotaque de Pindaré", "Sotaque de Orquestra", "Sotaque de Matraca", "Sotaque de Costa de Mão"],
+      "respostaCorreta": "Sotaque de Orquestra"
+    },
+    {
+      "pergunta": "Qual é a principal base da economia do município de Axixá?",
+      "opcoes": ["Turismo", "Indústria de mineração", "Pecuária, agricultura e pesca", "Comércio de produtos eletrônicos"],
+      "respostaCorreta": "Pecuária, agricultura e pesca"
+    },
+    {
+      "pergunta": "Qual importante rota turística a cidade de Axixá integra, junto a outros municípios?",
+      "opcoes": ["Rota das Emoções", "Rota do Sol", "Rota da Ilha", "Rota dos Mirantes"],
+      "respostaCorreta": "Rota da Ilha"
+    },
+    {
+      "pergunta": "O que a data de 13 de maio de 1913 representa para o município de Axixá?",
+      "opcoes": ["A chegada dos colonizadores portugueses", "A fundação da primeira igreja", "A elevação de vila para cidade", "A inauguração do balneário"],
+      "respostaCorreta": "A elevação de vila para cidade"
+    },
+    {
+      "pergunta": "Qual é o principal ponto de lazer e balneário natural da cidade, localizado às margens de um rio?",
+      "opcoes": ["Balneário do Rio Parnaíba", "Balneário do Rio Mearim", "Balneário da Floresta", "Balneário do Rio Munim"],
+      "respostaCorreta": "Balneário do Rio Munim"
+    }
+  ]
+}
