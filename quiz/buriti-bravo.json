@@ -6,27 +6,27 @@
     {
       "pergunta": "Em que ano Buriti Bravo foi fundado como município?",
       "opcoes": ["1822", "1931", "1945", "1900"],
-      "resposta_certa": "1931"
+      "respostaCorreta": "1931"
     },
     {
       "pergunta": "Quem iniciou o povoamento da região que se tornou Buriti Bravo?",
       "opcoes": ["Tenente Joaquim dos Santos", "Padre Francisco da Rocha", "Irmãos Carvalho", "Major Lucas Coelho"],
-      "resposta_certa": "Tenente Joaquim dos Santos"
+      "respostaCorreta": "Tenente Joaquim dos Santos"
     },
     {
       "pergunta": "O nome “Buriti Bravo” tem relação com o que?",
       "opcoes": ["Uma espécie de palmeira chamada 'Buritirana'", "Um rio que atravessa a cidade", "O fundador da cidade", "Um tipo de solo fértil"],
-      "resposta_certa": "Uma espécie de palmeira chamada 'Buritirana'"
+      "respostaCorreta": "Uma espécie de palmeira chamada 'Buritirana'"
     },
     {
       "pergunta": "Quais foram os irmãos que se estabeleceram na região após a Balaiada e ajudaram no desenvolvimento da cidade?",
       "opcoes": ["João, Joaquim e Regino de Carvalho", "José, Antônio e Pedro Silva", "Lucas, Marcos e Paulo Coelho", "Carlos, Henrique e João Mendes"],
-      "resposta_certa": "João, Joaquim e Regino de Carvalho"
+      "respostaCorreta": "João, Joaquim e Regino de Carvalho"
     },
     {
       "pergunta": "Qual é a principal característica geográfica do município de Buriti Bravo?",
       "opcoes": ["Localiza-se no litoral maranhense", "Está situado em região de cerrado com clima tropical", "É uma cidade de planalto com clima frio", "Possui grandes áreas de floresta amazônica"],
-      "resposta_certa": "Está situado em região de cerrado com clima tropical"
+      "respostaCorreta": "Está situado em região de cerrado com clima tropical"
     }
   ]
 }

@@ -13,7 +13,7 @@
         "1935",
         "1925"
       ],
-      "resposta_certa": "1919"
+      "respostaCorreta": "1919"
     },
     {
       "pergunta": "Qual foi o responsável pela fundação de Benedito Leite?",
@@ -23,7 +23,7 @@
         "Governador do Maranhão",
         "Padre José da Silva"
       ],
-      "resposta_certa": "Major Lucas Coelho"
+      "respostaCorreta": "Major Lucas Coelho"
     },
     {
       "pergunta": "Benedito Leite recebeu esse nome em homenagem a quem?",
@@ -33,7 +33,7 @@
         "Presidente do Maranhão",
         "Um líder local indígena"
       ],
-      "resposta_certa": "Senador Benedito Pereira Leite"
+      "respostaCorreta": "Senador Benedito Pereira Leite"
     },
     {
       "pergunta": "Qual é o bioma predominante do município?",
@@ -43,7 +43,7 @@
         "Cerrado",
         "Mata Atlântica"
       ],
-      "resposta_certa": "Cerrado"
+      "respostaCorreta": "Cerrado"
     },
     {
       "pergunta": "Benedito Leite foi beneficiada com uma ponte que liga a cidade a qual município?",
@@ -53,7 +53,7 @@
         "Nova Iorque (Maranhão)",
         "Timon"
       ],
-      "resposta_certa": "Uruçuí (Piauí)"
+      "respostaCorreta": "Uruçuí (Piauí)"
     }
   ]
 }
