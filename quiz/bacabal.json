@@ -1,0 +1,30 @@
+{
+  "nome": "Bacabal",
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome da cidade de Bacabal?",
+      "opcoes": ["O nome de um explorador famoso", "Uma grande quantidade de palmeiras bacaba", "Um tipo de peixe encontrado no rio local", "O nome de um cacique indígena"],
+      "respostaCorreta": "Uma grande quantidade de palmeiras bacaba"
+    },
+    {
+      "pergunta": "Bacabal é banhada por qual importante rio maranhense?",
+      "opcoes": ["Rio Itapecuru", "Rio Pindaré", "Rio Mearim", "Rio Balsas"],
+      "respostaCorreta": "Rio Mearim"
+    },
+    {
+      "pergunta": "A cidade é considerada um importante centro comercial de qual região do Maranhão?",
+      "opcoes": ["Baixada Maranhense", "Região Metropolitana de São Luís", "Maranhão Oriental", "Médio Mearim"],
+      "respostaCorreta": "Médio Mearim"
+    },
+    {
+      "pergunta": "Em que ano Bacabal se tornou oficialmente um município?",
+      "opcoes": ["1876", "1900", "1920", "1945"],
+      "respostaCorreta": "1920"
+    },
+    {
+      "pergunta": "Qual foi a principal atividade econômica de Bacabal em seus primórdios, no século XIX?",
+      "opcoes": ["Extração de minério", "Pecuária de gado", "Plantio de cana-de-açúcar", "Cultivo de arroz, algodão e mandioca"],
+      "respostaCorreta": "Cultivo de arroz, algodão e mandioca"
+    }
+  ]
+}
