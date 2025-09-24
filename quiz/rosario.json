@@ -1,6 +1,9 @@
 {
   "nome": "Rosário",
-  "imagens": [],
+  "imagens": [
+    "recreação ROSÁRIO SAO SIMÃO.jpg",
+    "ROSÁRIO EM SAO SIMÃO.jpg"
+  ],
   "perguntas": [
     {
       "pergunta": "Qual foi o nome original do povoado que deu origem à cidade de Rosário?",

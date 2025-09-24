@@ -1,0 +1,78 @@
+{
+  "nome": "Urbano Santos",
+  "imagens": [
+    "URBANO SANTOS.jpeg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o nome original do povoado que deu origem ao município de Urbano Santos?",
+      "opcoes": [
+        "Vila Nova",
+        "Povoado do Rio",
+        "Ponte Nova",
+        "Povoado do Cocais"
+      ],
+      "respostaCorreta": "Ponte Nova"
+    },
+    {
+      "pergunta": "O nome 'Urbano Santos' é uma homenagem a qual figura histórica do Maranhão?",
+      "opcoes": [
+        "Um antigo morador",
+        "Um governador do estado",
+        "Um líder religioso",
+        "Um explorador português"
+      ],
+      "respostaCorreta": "Um governador do estado"
+    },
+    {
+      "pergunta": "De qual município Urbano Santos se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Chapadinha",
+        "São Benedito do Rio Preto",
+        "Brejo",
+        "Anapurus"
+      ],
+      "respostaCorreta": "Brejo"
+    },
+    {
+      "pergunta": "A principal atividade econômica de Urbano Santos sempre foi a agricultura. Qual dos seguintes produtos agrícolas se destacou historicamente na economia local?",
+      "opcoes": [
+        "Soja",
+        "Arroz",
+        "Cana-de-açúcar e mandioca",
+        "Milho"
+      ],
+      "respostaCorreta": "Cana-de-açúcar e mandioca"
+    },
+    {
+      "pergunta": "O território de Urbano Santos está inteiramente inserido em qual bioma?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Mata Atlântica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "A cidade é cortada por qual rio, que teve um papel importante no transporte e comércio local antes da chegada das estradas?",
+      "opcoes": [
+        "Rio Pindaré",
+        "Rio Mearim",
+        "Rio Mocambo",
+        "Rio Itapecuru"
+      ],
+      "respostaCorreta": "Rio Mocambo"
+    },
+    {
+      "pergunta": "Qual é a festa cultural que se destaca em Urbano Santos, celebrada anualmente no mês de agosto?",
+      "opcoes": [
+        "Carnaval de Rua",
+        "Festa de São João",
+        "Festa do Padroeiro",
+        "Festival do Caranguejo"
+      ],
+      "respostaCorreta": "Festa do Padroeiro"
+    }
+  ]
+}

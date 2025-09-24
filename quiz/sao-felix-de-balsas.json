@@ -1,0 +1,78 @@
+{
+  "nome": "São Félix de Balsas",
+  "imagens": [
+    "SÃO FELIX DE BALSAS.jpg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'São Félix de Balsas'?",
+      "opcoes": [
+        "Uma homenagem a um santo e a um antigo morador",
+        "O nome de um explorador e um rio",
+        "Uma referência a uma imagem de São Félix de Valois e ao rio Balsas",
+        "Uma lenda local"
+      ],
+      "respostaCorreta": "Uma referência a uma imagem de São Félix de Valois e ao rio Balsas"
+    },
+    {
+      "pergunta": "Qual foi o nome do primeiro povoado que deu origem à cidade?",
+      "opcoes": [
+        "Vila Nova",
+        "Porto do Cariri",
+        "Arraial de São Félix",
+        "Vila de Loreto"
+      ],
+      "respostaCorreta": "Porto do Cariri"
+    },
+    {
+      "pergunta": "De qual município São Félix de Balsas se desmembrou para se tornar independente?",
+      "opcoes": [
+        "Balsas",
+        "Loreto",
+        "Pastos Bons",
+        "Mirador"
+      ],
+      "respostaCorreta": "Loreto"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de São Félix de Balsas?",
+      "opcoes": [
+        "Extração de minério",
+        "Pecuária e agricultura de subsistência",
+        "Indústria de carvão vegetal",
+        "Turismo"
+      ],
+      "respostaCorreta": "Pecuária e agricultura de subsistência"
+    },
+    {
+      "pergunta": "O nome 'Balsas' foi agregado ao nome do município em referência a qual rio?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Itapecuru",
+        "Rio Balsas",
+        "Rio Mearim"
+      ],
+      "respostaCorreta": "Rio Balsas"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de São Félix de Balsas?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Mata Atlântica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual é a festa religiosa mais importante do município, celebrada em novembro em homenagem ao seu padroeiro?",
+      "opcoes": [
+        "Festa de São Francisco",
+        "Festa de São Félix",
+        "Festa de Santo Antônio",
+        "Festa de Nossa Senhora da Conceição"
+      ],
+      "respostaCorreta": "Festa de São Félix"
+    }
+  ]
+}

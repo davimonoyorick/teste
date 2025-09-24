@@ -1,0 +1,89 @@
+{
+  "nome": "Pirapemas",
+  "imagens": [
+    "ATENDIMENTO OFTALMOLOGICO PIRAPEMAS.JPG",
+    "PIRAPEMAS.jpg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'Pirapemas'?",
+      "opcoes": [
+        "Uma onomatopeia do som de um rio",
+        "O nome de um explorador português",
+        "Um termo indígena que significa 'peixe fluvial'",
+        "Uma homenagem a um líder local"
+      ],
+      "respostaCorreta": "Um termo indígena que significa 'peixe fluvial'"
+    },
+    {
+      "pergunta": "De qual município Pirapemas se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Itapecuru-Mirim",
+        "Coroatá",
+        "Vargem Grande",
+        "São Mateus do Maranhão"
+      ],
+      "respostaCorreta": "Coroatá"
+    },
+    {
+      "pergunta": "Em que ano Pirapemas foi criado como município?",
+      "opcoes": [
+        "1948",
+        "1952",
+        "1961",
+        "1970"
+      ],
+      "respostaCorreta": "1952"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município de Pirapemas e é vital para a economia local?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Parnaíba",
+        "Rio Itapecuru",
+        "Rio Preguiças"
+      ],
+      "respostaCorreta": "Rio Itapecuru"
+    },
+    {
+      "pergunta": "A cidade de Pirapemas possui uma antiga estação ferroviária. Essa ferrovia ligava o Maranhão a qual outra capital?",
+      "opcoes": [
+        "Belém",
+        "Fortaleza",
+        "Teresina",
+        "Palmas"
+      ],
+      "respostaCorreta": "Teresina"
+    },
+    {
+      "pergunta": "Qual era a principal atividade econômica do antigo aldeamento que deu origem a Pirapemas?",
+      "opcoes": [
+        "Pesca artesanal",
+        "Criação de gado e agricultura",
+        "Extração de minério",
+        "Indústria de cerâmica"
+      ],
+      "respostaCorreta": "Criação de gado e agricultura"
+    },
+    {
+      "pergunta": "Qual dos seguintes nomes está na lista dos grandes literatos maranhenses nascidos em Pirapemas?",
+      "opcoes": [
+        "Viriato Corrêa",
+        "João do Vale",
+        "Machado de Assis",
+        "Aluísio Azevedo"
+      ],
+      "respostaCorreta": "Viriato Corrêa"
+    },
+    {
+      "pergunta": "Qual dos seguintes distritos pertenceu a Pirapemas no passado e depois se tornou município?",
+      "opcoes": [
+        "Itapecuru-Mirim",
+        "Vargem Grande",
+        "Matões do Norte",
+        "Cantanhede"
+      ],
+      "respostaCorreta": "Vargem Grande"
+    }
+  ]
+}
