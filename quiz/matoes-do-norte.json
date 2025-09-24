@@ -1,0 +1,68 @@
+{
+  "nome": "Matões do Norte",
+  "imagens": [
+    "226460f4-b104-441c-9551-9191aa8c7917.jpg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Em que ano o município de Matões do Norte foi criado e instalado?",
+      "opcoes": [
+        "1994 e 1997",
+        "1952 e 1953",
+        "1835 e 1863",
+        "2001 e 2005"
+      ],
+      "respostaCorreta": "1994 e 1997"
+    },
+    {
+      "pergunta": "Qual era o nome original da cidade, antes de se tornar Matões do Norte?",
+      "opcoes": [
+        "Vila Nova",
+        "São José dos Matões",
+        "Matões do Sul",
+        "Arraial das Flores"
+      ],
+      "respostaCorreta": "São José dos Matões"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de Matões do Norte?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Mata Atlântica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual é um dos pontos turísticos de Matões do Norte mencionado nas informações?",
+      "opcoes": [
+        "Igreja de Santo Antônio",
+        "Parque Municipal do Cocal",
+        "Lagoa Municipal",
+        "Praça da Liberdade"
+      ],
+      "respostaCorreta": "Lagoa Municipal"
+    },
+    {
+      "pergunta": "Qual o gentílico dos habitantes de Matões do Norte?",
+      "opcoes": [
+        "Matoenses",
+        "Norte-matoenses",
+        "Matoeiros",
+        "Matoenses-do-norte"
+      ],
+      "respostaCorreta": "Norte-matoenses"
+    },
+    {
+      "pergunta": "Em termos de economia, quais setores se destacaram com o maior número de empregados em Matões do Norte em 2024?",
+      "opcoes": [
+        "Comércio Varejista, Agricultura, Pecuária e Serviços Relacionados, e Fabricação de Produtos de Minerais Não Metálicos",
+        "Construção Civil, Turismo e Pesca",
+        "Indústria Têxtil e Setor de Transportes",
+        "Setor de Alimentos e Bebidas"
+      ],
+      "respostaCorreta": "Comércio Varejista, Agricultura, Pecuária e Serviços Relacionados, e Fabricação de Produtos de Minerais Não Metálicos"
+    }
+  ]
+}

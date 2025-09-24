@@ -1,0 +1,88 @@
+{
+  "nome": "Barra do Corda",
+  "imagens": [
+    "6687ff7e-65db-4506-9302-eb14116dff5e.jpg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quem é considerado o fundador de Barra do Corda, que se estabeleceu na região em 1835?",
+      "opcoes": [
+        "Manoel Rodrigues de Melo Uchoa",
+        "Militão Bandeira Barros",
+        "José Lourenço da Silva Milanês",
+        "Antônio Francisco dos Reis"
+      ],
+      "respostaCorreta": "Manoel Rodrigues de Melo Uchoa"
+    },
+    {
+      "pergunta": "Qual dos seguintes rios é um dos mais importantes para o município, pois em sua confluência com o Rio Mearim, a cidade foi fundada?",
+      "opcoes": [
+        "Rio Tocantins",
+        "Rio Parnaíba",
+        "Rio Balsas",
+        "Rio Corda"
+      ],
+      "respostaCorreta": "Rio Corda"
+    },
+    {
+      "pergunta": "A cidade é sede de qual região de planejamento do estado, que tem como um dos seus maiores atrativos as comunidades indígenas?",
+      "opcoes": [
+        "Polo Floresta dos Guarás",
+        "Polo Pindaré",
+        "Região dos Guajajaras",
+        "Região do Sertão Maranhense"
+      ],
+      "respostaCorreta": "Região dos Guajajaras"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica do setor primário que se destaca na história e no desenvolvimento de Barra do Corda?",
+      "opcoes": [
+        "Pesca e produção de camarão",
+        "Extrativismo de babaçu",
+        "Agricultura e pecuária",
+        "Indústria de cerâmica"
+      ],
+      "respostaCorreta": "Agricultura e pecuária"
+    },
+    {
+      "pergunta": "Em qual ano Barra do Corda foi elevada à categoria de vila, desmembrada do antigo município de Chapada?",
+      "opcoes": [
+        "1835",
+        "1854",
+        "1881",
+        "1907"
+      ],
+      "respostaCorreta": "1854"
+    },
+    {
+      "pergunta": "Além das festas juninas, qual outra manifestação cultural popular de origem afro-brasileira é celebrada no município, principalmente após a Semana Santa?",
+      "opcoes": [
+        "Tambor de Crioula",
+        "Dança Portuguesa",
+        "Bumba-meu-boi",
+        "Punga"
+      ],
+      "respostaCorreta": "Punga"
+    },
+    {
+      "pergunta": "O que o apelido 'Mesopotâmia do Sertão Maranhense' se refere?",
+      "opcoes": [
+        "À sua arquitetura antiga e colonial",
+        "À sua localização entre os rios Corda e Mearim",
+        "Às suas grandes áreas de cerrado e caatinga",
+        "Ao seu grande potencial turístico e natural"
+      ],
+      "respostaCorreta": "À sua localização entre os rios Corda e Mearim"
+    },
+    {
+      "pergunta": "A cidade de Barra do Corda é reconhecida pela sua forte inclinação para qual área cultural?",
+      "opcoes": [
+        "Música popular",
+        "Artes plásticas",
+        "Artesanato em cerâmica",
+        "Literatura"
+      ],
+      "respostaCorreta": "Literatura"
+    }
+  ]
+}

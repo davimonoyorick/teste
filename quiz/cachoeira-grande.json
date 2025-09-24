@@ -1,0 +1,68 @@
+{
+  "nome": "Cachoeira Grande",
+  "imagens": [
+    "WhatsApp Image 2025-09-05 at 10.59.05 (4).jpeg"
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qual é o bioma predominante no território de Cachoeira Grande?",
+      "opcoes": [
+        "Floresta Amazônica e Cerrado",
+        "Mata Atlântica",
+        "Pampas",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Floresta Amazônica e Cerrado"
+    },
+    {
+      "pergunta": "De qual município Cachoeira Grande se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Icatu",
+        "Rosário",
+        "Morros",
+        "Presidente Juscelino"
+      ],
+      "respostaCorreta": "Morros"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica do setor primário que predomina em Cachoeira Grande, além da pesca?",
+      "opcoes": [
+        "Pecuária bovina",
+        "Extrativismo de babaçu",
+        "Agricultura de cana-de-açúcar",
+        "Criação de galináceos"
+      ],
+      "respostaCorreta": "Pecuária bovina"
+    },
+    {
+      "pergunta": "Qual lago de água doce é um ponto turístico de Cachoeira Grande, localizado às margens da rodovia MA-020?",
+      "opcoes": [
+        "Lagoa da Pedra",
+        "Lagoa do Junco",
+        "Lagoa do Coroatá",
+        "Lago do Pindaré"
+      ],
+      "respostaCorreta": "Lagoa do Coroatá"
+    },
+    {
+      "pergunta": "Qual é a principal base econômica de Cachoeira Grande?",
+      "opcoes": [
+        "Indústria de cerâmica",
+        "Turismo e serviços",
+        "Administração pública",
+        "Pecuária e agricultura"
+      ],
+      "respostaCorreta": "Administração pública"
+    },
+    {
+      "pergunta": "Em que ano Cachoeira Grande foi elevada à categoria de município?",
+      "opcoes": [
+        "1994",
+        "1952",
+        "1961",
+        "1938"
+      ],
+      "respostaCorreta": "1994"
+    }
+  ]
+}
