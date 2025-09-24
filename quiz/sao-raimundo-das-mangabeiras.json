@@ -1,0 +1,76 @@
+{
+  "nome": "São Raimundo das Mangabeiras",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome da cidade de São Raimundo das Mangabeiras?",
+      "opcoes": [
+        "Uma homenagem a um santo e uma família tradicional",
+        "Uma referência a um rio e um tipo de fruta",
+        "O nome de uma planta e um morro",
+        "Uma homenagem a um santo e a uma planta frutífera"
+      ],
+      "respostaCorreta": "Uma homenagem a um santo e a uma planta frutífera"
+    },
+    {
+      "pergunta": "De qual município São Raimundo das Mangabeiras se desmembrou para se tornar independente?",
+      "opcoes": [
+        "Balsas",
+        "Pastos Bons",
+        "Loreto",
+        "Colinas"
+      ],
+      "respostaCorreta": "Loreto"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de São Raimundo das Mangabeiras que impulsionou o seu desenvolvimento?",
+      "opcoes": [
+        "Extração de minério",
+        "Pecuária e agricultura de soja",
+        "Turismo",
+        "Indústria de cerâmica"
+      ],
+      "respostaCorreta": "Pecuária e agricultura de soja"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município, sendo um de seus principais recursos naturais?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Balsas",
+        "Rio Mearim",
+        "Rio Tocantins"
+      ],
+      "respostaCorreta": "Rio Balsas"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de São Raimundo das Mangabeiras?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Caatinga",
+        "Cerrado",
+        "Mata Atlântica"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual santo é o padroeiro do município, cuja festa atrai grande número de fiéis?",
+      "opcoes": [
+        "São José",
+        "Santo Antônio",
+        "São Raimundo Nonato",
+        "São Pedro"
+      ],
+      "respostaCorreta": "São Raimundo Nonato"
+    },
+    {
+      "pergunta": "Qual é a festa cultural que celebra a tradição e o trabalho na zona rural, sendo um dos destaques do município?",
+      "opcoes": [
+        "Festa do Vaqueiro",
+        "Festival do Peixe",
+        "Festa do Divino Espírito Santo",
+        "Festival da Mandioca"
+      ],
+      "respostaCorreta": "Festa do Vaqueiro"
+    }
+  ]
+}

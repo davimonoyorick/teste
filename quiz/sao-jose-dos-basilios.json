@@ -1,0 +1,56 @@
+{
+  "nome": "São José dos Basílios",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "De qual município São José dos Basílios se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Presidente Dutra",
+        "Tuntum",
+        "Dom Pedro",
+        "Barra do Corda"
+      ],
+      "respostaCorreta": "Presidente Dutra"
+    },
+    {
+      "pergunta": "Qual é a origem do nome da cidade, 'São José dos Basílios'?",
+      "opcoes": [
+        "Uma homenagem a um santo e ao rio que passa pela região",
+        "Uma homenagem a um santo e a uma família de agricultores",
+        "Uma homenagem a um antigo líder político",
+        "Uma homenagem a um santo e ao primeiro morador, José Basílio"
+      ],
+      "respostaCorreta": "Uma homenagem a um santo e ao primeiro morador, José Basílio"
+    },
+    {
+      "pergunta": "Em que ano São José dos Basílios foi criado como município?",
+      "opcoes": [
+        "1985",
+        "1990",
+        "1994",
+        "2001"
+      ],
+      "respostaCorreta": "1994"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de São José dos Basílios?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Cerrado",
+        "Mata dos Cocais",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual santo é o padroeiro do município?",
+      "opcoes": [
+        "São José",
+        "São Francisco",
+        "São Pedro",
+        "Santo Antônio"
+      ],
+      "respostaCorreta": "São José"
+    }
+  ]
+}

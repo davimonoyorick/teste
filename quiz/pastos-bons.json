@@ -1,0 +1,86 @@
+{
+  "nome": "Pastos Bons",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'Pastos Bons'?",
+      "opcoes": [
+        "Uma lenda local sobre um pastor",
+        "A fertilidade do solo para a agricultura",
+        "As vastas e férteis pastagens da região",
+        "Uma homenagem a um antigo morador"
+      ],
+      "respostaCorreta": "As vastas e férteis pastagens da região"
+    },
+    {
+      "pergunta": "O povoado de Pastos Bons foi elevado à categoria de vila em qual ano?",
+      "opcoes": [
+        "1811",
+        "1833",
+        "1848",
+        "1865"
+      ],
+      "respostaCorreta": "1833"
+    },
+    {
+      "pergunta": "Qual rio é um dos mais importantes do município de Pastos Bons, servindo como uma de suas principais vias fluviais?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Tocantins",
+        "Rio Balsas",
+        "Rio Itapecuru"
+      ],
+      "respostaCorreta": "Rio Balsas"
+    },
+    {
+      "pergunta": "A principal atividade econômica de Pastos Bons é a pecuária, que se destaca por qual tipo de criação?",
+      "opcoes": [
+        "Gado suíno",
+        "Gado bovino",
+        "Criação de ovinos",
+        "Avicultura"
+      ],
+      "respostaCorreta": "Gado bovino"
+    },
+    {
+      "pergunta": "Qual evento cultural de Pastos Bons é um dos mais tradicionais e atrai grande público para a exposição de animais e produtos agrícolas?",
+      "opcoes": [
+        "Festival Junino",
+        "Festa do Divino Espírito Santo",
+        "Exposição Agropecuária de Pastos Bons",
+        "Festa da Padroeira"
+      ],
+      "respostaCorreta": "Exposição Agropecuária de Pastos Bons"
+    },
+    {
+      "pergunta": "Qual foi o nome do primeiro distrito a ser criado em Pastos Bons, que depois foi elevado à categoria de município?",
+      "opcoes": [
+        "Nova Iorque do Maranhão",
+        "São Francisco do Maranhão",
+        "Mirador",
+        "Sambaíba"
+      ],
+      "respostaCorreta": "Mirador"
+    },
+    {
+      "pergunta": "A cidade de Pastos Bons está inserida em qual bioma?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Cerrado",
+        "Caatinga",
+        "Mata Atlântica"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual foi o primeiro povoado que deu origem à cidade, segundo relatos históricos?",
+      "opcoes": [
+        "Teresina",
+        "Buriti Grande",
+        "Parnaíba",
+        "Arraial de Pastos Bons"
+      ],
+      "respostaCorreta": "Arraial de Pastos Bons"
+    }
+  ]
+}

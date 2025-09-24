@@ -1,0 +1,76 @@
+{
+  "nome": "Santa Luzia",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o primeiro nome do povoado que deu origem à cidade de Santa Luzia?",
+      "opcoes": [
+        "Vila Nova",
+        "Povoado do Rio",
+        "Vila de Santa Luzia",
+        "Vila Pindaré"
+      ],
+      "respostaCorreta": "Vila de Santa Luzia"
+    },
+    {
+      "pergunta": "O nome do município é uma homenagem a qual figura religiosa?",
+      "opcoes": [
+        "Santa Rita de Cássia",
+        "Nossa Senhora da Conceição",
+        "Santa Luzia de Siracusa",
+        "Santa Helena"
+      ],
+      "respostaCorreta": "Santa Luzia de Siracusa"
+    },
+    {
+      "pergunta": "De qual município Santa Luzia se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Pindaré-Mirim",
+        "Bacabal",
+        "Vitória do Mearim",
+        "São Mateus do Maranhão"
+      ],
+      "respostaCorreta": "Pindaré-Mirim"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município de Santa Luzia, sendo vital para a sua história e desenvolvimento?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Itapecuru",
+        "Rio Pindaré",
+        "Rio Grajaú"
+      ],
+      "respostaCorreta": "Rio Pindaré"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Santa Luzia, baseada em seus recursos naturais?",
+      "opcoes": [
+        "Mineração",
+        "Extrativismo vegetal e pecuária",
+        "Indústria de cerâmica",
+        "Pesca artesanal"
+      ],
+      "respostaCorreta": "Extrativismo vegetal e pecuária"
+    },
+    {
+      "pergunta": "Qual manifestação cultural é um dos principais destaques do município, especialmente no período junino?",
+      "opcoes": [
+        "Carnaval de Rua",
+        "Bumba-meu-boi",
+        "Tambor de Crioula",
+        "Festa do Divino"
+      ],
+      "respostaCorreta": "Bumba-meu-boi"
+    },
+    {
+      "pergunta": "O território de Santa Luzia está inserido em qual bioma?",
+      "opcoes": [
+        "Caatinga",
+        "Cerrado",
+        "Floresta Amazônica",
+        "Mata Atlântica"
+      ],
+      "respostaCorreta": "Floresta Amazônica"
+    }
+  ]
+}

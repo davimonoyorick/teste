@@ -1,0 +1,56 @@
+{
+  "nome": "São Luiz Gonzaga do Maranhão",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome da cidade de São Luiz Gonzaga?",
+      "opcoes": [
+        "Uma homenagem a um antigo governador",
+        "Uma referência a um rio local",
+        "Uma homenagem a São Luís Gonzaga",
+        "Uma homenagem a um líder político"
+      ],
+      "respostaCorreta": "Uma homenagem a São Luís Gonzaga"
+    },
+    {
+      "pergunta": "De qual município São Luiz Gonzaga se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "São Mateus do Maranhão",
+        "Itapecuru-Mirim",
+        "Bacabal",
+        "Pindaré-Mirim"
+      ],
+      "respostaCorreta": "São Mateus do Maranhão"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de São Luiz Gonzaga?",
+      "opcoes": [
+        "Extração de gás natural",
+        "Pecuária e agricultura",
+        "Turismo",
+        "Produção de carvão"
+      ],
+      "respostaCorreta": "Pecuária e agricultura"
+    },
+    {
+      "pergunta": "Em qual bioma o território de São Luiz Gonzaga está predominantemente inserido?",
+      "opcoes": [
+        "Caatinga",
+        "Cerrado",
+        "Mata Atlântica",
+        "Floresta Amazônica"
+      ],
+      "respostaCorreta": "Floresta Amazônica"
+    },
+    {
+      "pergunta": "O nome da cidade de São Luiz Gonzaga foi criado a partir da junção do nome de qual santo com o nome de qual família?",
+      "opcoes": [
+        "São Luiz e a família Gonzaga",
+        "Santo Antônio e a família Lopes",
+        "São José e a família Basílios",
+        "São Francisco e a família Neves"
+      ],
+      "respostaCorreta": "São Luiz e a família Gonzaga"
+    }
+  ]
+}

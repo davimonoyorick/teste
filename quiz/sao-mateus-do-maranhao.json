@@ -1,0 +1,86 @@
+{
+  "nome": "São Mateus do Maranhão",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome da cidade de São Mateus do Maranhão?",
+      "opcoes": [
+        "Uma homenagem a um antigo governador",
+        "Uma referência a um rio local",
+        "Uma homenagem a São Mateus, o Evangelista",
+        "Uma homenagem a um líder político"
+      ],
+      "respostaCorreta": "Uma homenagem a São Mateus, o Evangelista"
+    },
+    {
+      "pergunta": "De quais municípios São Mateus do Maranhão se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Bacabal e Coroatá",
+        "Vargem Grande e Itapecuru-Mirim",
+        "Bacabal e Pindaré-Mirim",
+        "Coroatá e Alto Alegre"
+      ],
+      "respostaCorreta": "Bacabal e Coroatá"
+    },
+    {
+      "pergunta": "Em qual ano São Mateus do Maranhão foi criado como município?",
+      "opcoes": [
+        "1942",
+        "1950",
+        "1961",
+        "1975"
+      ],
+      "respostaCorreta": "1961"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de São Mateus do Maranhão, com destaque para grandes lavouras?",
+      "opcoes": [
+        "Pecuária bovina",
+        "Indústria de cerâmica",
+        "Extração de minério",
+        "Agricultura e pecuária"
+      ],
+      "respostaCorreta": "Agricultura e pecuária"
+    },
+    {
+      "pergunta": "Qual é a principal rodovia que, com seu advento, impulsionou o crescimento da cidade?",
+      "opcoes": [
+        "BR-010",
+        "BR-135",
+        "MA-006",
+        "MA-020"
+      ],
+      "respostaCorreta": "BR-135"
+    },
+    {
+      "pergunta": "O território de São Mateus do Maranhão está predominantemente inserido em qual bioma?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Caatinga",
+        "Cerrado",
+        "Mata Atlântica"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município e é um de seus principais mananciais?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Mearim",
+        "Rio Pindaré",
+        "Rio Itapecuru"
+      ],
+      "respostaCorreta": "Rio Mearim"
+    },
+    {
+      "pergunta": "Qual das seguintes atividades culturais é um dos destaques de São Mateus do Maranhão?",
+      "opcoes": [
+        "Caratê e Capoeira",
+        "Dança do Reggae",
+        "Festival de Quadrilhas",
+        "Cavalhada"
+      ],
+      "respostaCorreta": "Caratê e Capoeira"
+    }
+  ]
+}

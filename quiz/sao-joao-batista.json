@@ -1,0 +1,86 @@
+{
+  "nome": "São Francisco do Maranhão",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome da cidade de São Francisco do Maranhão?",
+      "opcoes": [
+        "Uma homenagem a um antigo explorador",
+        "Uma referência a um rio local",
+        "Uma homenagem a São Francisco de Assis",
+        "Uma homenagem a um líder político"
+      ],
+      "respostaCorreta": "Uma homenagem a São Francisco de Assis"
+    },
+    {
+      "pergunta": "Qual foi o primeiro nome do povoado que deu origem à cidade?",
+      "opcoes": [
+        "Porto do Cariri",
+        "Sambaíba",
+        "Canoeiros",
+        "Vila do Rio Grande"
+      ],
+      "respostaCorreta": "Porto do Cariri"
+    },
+    {
+      "pergunta": "De qual município São Francisco do Maranhão se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Barão de Grajaú",
+        "Caxias",
+        "Pastos Bons",
+        "Teresina"
+      ],
+      "respostaCorreta": "Barão de Grajaú"
+    },
+    {
+      "pergunta": "Qual rio importante do Brasil e do Maranhão delimita a fronteira do município, separando-o de um estado vizinho?",
+      "opcoes": [
+        "Rio Itapecuru",
+        "Rio Tocantins",
+        "Rio Parnaíba",
+        "Rio Mearim"
+      ],
+      "respostaCorreta": "Rio Parnaíba"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de São Francisco do Maranhão?",
+      "opcoes": [
+        "Extração de minério",
+        "Turismo",
+        "Pecuária e agricultura de subsistência",
+        "Indústria de carvão"
+      ],
+      "respostaCorreta": "Pecuária e agricultura de subsistência"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de São Francisco do Maranhão?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Mata Atlântica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "A cidade é um ponto estratégico na rota de um famoso caminho turístico e religioso. Qual é o nome dessa rota?",
+      "opcoes": [
+        "Caminho do Sertão",
+        "Caminhos do Velho Monge",
+        "Rota das Emoções",
+        "Caminho da Fé"
+      ],
+      "respostaCorreta": "Caminhos do Velho Monge"
+    },
+    {
+      "pergunta": "Qual é a festa religiosa mais importante do município, celebrada em homenagem ao seu padroeiro?",
+      "opcoes": [
+        "Festa de Santo Antônio",
+        "Festa de Nossa Senhora da Conceição",
+        "Festa de São Francisco de Assis",
+        "Festa de São José"
+      ],
+      "respostaCorreta": "Festa de São Francisco de Assis"
+    }
+  ]
+}

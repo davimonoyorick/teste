@@ -1,0 +1,56 @@
+{
+  "nome": "Nova Colinas",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "O município de Nova Colinas foi criado em 1994, desmembrado de qual outro município?",
+      "opcoes": [
+        "Balsas",
+        "Fortaleza dos Nogueiras",
+        "Colinas",
+        "São Domingos do Maranhão"
+      ],
+      "respostaCorreta": "Fortaleza dos Nogueiras"
+    },
+    {
+      "pergunta": "Qual é o principal bioma que cobre 100% do território de Nova Colinas?",
+      "opcoes": [
+        "Mata Atlântica",
+        "Floresta Amazônica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual é a principal atividade agrícola que se destaca na economia de Nova Colinas?",
+      "opcoes": [
+        "Pecuária bovina",
+        "Cultivo de arroz",
+        "Cultivo de soja",
+        "Extração de babaçu"
+      ],
+      "respostaCorreta": "Cultivo de soja"
+    },
+    {
+      "pergunta": "Qual é a principal festividade religiosa de Nova Colinas, realizada anualmente em 26 de julho?",
+      "opcoes": [
+        "Festa de São João",
+        "Festa de Santa Ana",
+        "Festa do Divino Espírito Santo",
+        "Festa do Vaqueiro"
+      ],
+      "respostaCorreta": "Festa de Santa Ana"
+    },
+    {
+      "pergunta": "Qual é um dos principais pontos turísticos de Nova Colinas, conhecido por suas cachoeiras?",
+      "opcoes": [
+        "Parque da Cachoeira Três Marias",
+        "Rio Parnaíba",
+        "Serra da Mangabeira",
+        "Parque do Mirador"
+      ],
+      "respostaCorreta": "Parque da Cachoeira Três Marias"
+    }
+  ]
+}

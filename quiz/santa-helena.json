@@ -1,0 +1,56 @@
+{
+  "nome": "Santa Helena",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Santa Helena está situada em uma região conhecida como 'Baixada Maranhense'. Qual rio importante banha o município?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Parnaíba",
+        "Rio Turiaçu",
+        "Rio Itapecuru"
+      ],
+      "respostaCorreta": "Rio Turiaçu"
+    },
+    {
+      "pergunta": "A economia de Santa Helena se destaca em qual atividade, com um rebanho bovino expressivo?",
+      "opcoes": [
+        "Extração de minério",
+        "Pecuária bovina",
+        "Agricultura de grãos",
+        "Pesca e mariscagem"
+      ],
+      "respostaCorreta": "Pecuária bovina"
+    },
+    {
+      "pergunta": "Qual é a padroeira da principal igreja da cidade, que também é um dos principais pontos turísticos?",
+      "opcoes": [
+        "Nossa Senhora da Conceição",
+        "Santa Helena",
+        "Nossa Senhora da Piedade",
+        "Santa Luzia"
+      ],
+      "respostaCorreta": "Santa Helena"
+    },
+    {
+      "pergunta": "O território de Santa Helena está inserido em qual bioma?",
+      "opcoes": [
+        "Cerrado",
+        "Floresta Amazônica",
+        "Mata Atlântica",
+        "Pampas"
+      ],
+      "respostaCorreta": "Floresta Amazônica"
+    },
+    {
+      "pergunta": "Além da agricultura, qual atividade de extrativismo é muito importante para a economia local?",
+      "opcoes": [
+        "Extração de babaçu",
+        "Extração de sal",
+        "Pesca e mariscagem",
+        "Extração de carvão"
+      ],
+      "respostaCorreta": "Pesca e mariscagem"
+    }
+  ]
+}

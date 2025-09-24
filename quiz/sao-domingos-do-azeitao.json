@@ -1,0 +1,66 @@
+{
+  "nome": "São Domingos do Azeitão",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'São Domingos do Azeitão'?",
+      "opcoes": [
+        "Uma homenagem a um líder local e a um fruto regional",
+        "O nome de um rio e de um santo",
+        "O nome de uma árvore e de um santo",
+        "Uma referência a um poço de azeite"
+      ],
+      "respostaCorreta": "O nome de uma árvore e de um santo"
+    },
+    {
+      "pergunta": "De qual município São Domingos do Azeitão se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Pastos Bons",
+        "Loreto",
+        "Balsas",
+        "Riachão"
+      ],
+      "respostaCorreta": "Pastos Bons"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município, contribuindo para a sua agricultura e pecuária?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Itapecuru",
+        "Rio Parnaíba",
+        "Rio Azeitão"
+      ],
+      "respostaCorreta": "Rio Azeitão"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de São Domingos do Azeitão?",
+      "opcoes": [
+        "Indústria de mineração",
+        "Pecuária e agricultura",
+        "Turismo",
+        "Pesca artesanal"
+      ],
+      "respostaCorreta": "Pecuária e agricultura"
+    },
+    {
+      "pergunta": "Qual santo é o padroeiro do município, comemorado em uma das festas mais importantes da cidade?",
+      "opcoes": [
+        "São José",
+        "Santo Antônio",
+        "São Francisco",
+        "São Domingos de Gusmão"
+      ],
+      "respostaCorreta": "São Domingos de Gusmão"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de São Domingos do Azeitão?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Mata Atlântica",
+        "Caatinga",
+        "Cerrado"
+      ],
+      "respostaCorreta": "Cerrado"
+    }
+  ]
+}

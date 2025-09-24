@@ -1,0 +1,86 @@
+{
+  "nome": "Paulino Neves",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "O nome da cidade de Paulino Neves é uma homenagem a qual figura histórica do Maranhão?",
+      "opcoes": [
+        "Um antigo morador da região",
+        "Um líder político local",
+        "Um governador do estado no início do século XX",
+        "Um líder religioso"
+      ],
+      "respostaCorreta": "Um governador do estado no início do século XX"
+    },
+    {
+      "pergunta": "Antes de se tornar um município, qual era o nome do povoado que deu origem a Paulino Neves?",
+      "opcoes": [
+        "Vila Grande",
+        "Campos do Bacuri",
+        "Povoado do Rio",
+        "Teresina"
+      ],
+      "respostaCorreta": "Campos do Bacuri"
+    },
+    {
+      "pergunta": "Paulino Neves se emancipou de qual outro município para ser criado em 1948?",
+      "opcoes": [
+        "Tutóia",
+        "Barreirinhas",
+        "Humberto de Campos",
+        "São Luís"
+      ],
+      "respostaCorreta": "Tutóia"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Paulino Neves, impulsionada por sua localização estratégica?",
+      "opcoes": [
+        "Agricultura de cana-de-açúcar",
+        "Extração de minério",
+        "Turismo e pesca",
+        "Pecuária"
+      ],
+      "respostaCorreta": "Turismo e pesca"
+    },
+    {
+      "pergunta": "O município de Paulino Neves é conhecido por ser uma porta de entrada para qual lado do Parque Nacional dos Lençóis Maranhenses?",
+      "opcoes": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "respostaCorreta": "Norte"
+    },
+    {
+      "pergunta": "A paisagem de Paulino Neves é caracterizada principalmente por quais elementos geográficos?",
+      "opcoes": [
+        "Grandes serras e cachoeiras",
+        "Litoral com dunas e lagoas",
+        "Campos e chapadas",
+        "Floresta densa"
+      ],
+      "respostaCorreta": "Litoral com dunas e lagoas"
+    },
+    {
+      "pergunta": "Qual é a principal manifestação cultural do município, comemorada anualmente em agosto?",
+      "opcoes": [
+        "Festa de São Francisco",
+        "Festa do Divino Espírito Santo",
+        "Festa do Padroeiro",
+        "Festival do Caranguejo"
+      ],
+      "respostaCorreta": "Festa do Padroeiro"
+    },
+    {
+      "pergunta": "Paulino Neves é um dos municípios maranhenses que possui áreas costeiras e manguezais. Qual bioma predomina na região?",
+      "opcoes": [
+        "Mata Atlântica",
+        "Manguezal / ecossistema litorâneo",
+        "Cerrado",
+        "Amazônia"
+      ],
+      "respostaCorreta": "Manguezal / ecossistema litorâneo"
+    }
+  ]
+}

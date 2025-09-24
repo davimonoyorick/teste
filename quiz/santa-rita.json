@@ -1,0 +1,66 @@
+{
+  "nome": "Santa Rita",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "De qual município Santa Rita se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Itapecuru-Mirim",
+        "Rosário",
+        "São Luís",
+        "Bacabeira"
+      ],
+      "respostaCorreta": "Rosário"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Santa Rita, que lhe rendeu o apelido de 'terra da farinha'?",
+      "opcoes": [
+        "Pecuária bovina",
+        "Agricultura de cana-de-açúcar",
+        "Produção de farinha de mandioca",
+        "Comércio e serviços"
+      ],
+      "respostaCorreta": "Produção de farinha de mandioca"
+    },
+    {
+      "pergunta": "O município de Santa Rita tem uma forte presença de qual tipo de comunidade, certificada pela Fundação Cultural Palmares?",
+      "opcoes": [
+        "Comunidades ribeirinhas",
+        "Comunidades quilombolas",
+        "Comunidades indígenas",
+        "Comunidades de pescadores"
+      ],
+      "respostaCorreta": "Comunidades quilombolas"
+    },
+    {
+      "pergunta": "Qual é a padroeira da cidade de Santa Rita, que dá nome ao município?",
+      "opcoes": [
+        "Santa Helena",
+        "Santa Luzia",
+        "Santa Rita de Cássia",
+        "Nossa Senhora da Conceição"
+      ],
+      "respostaCorreta": "Santa Rita de Cássia"
+    },
+    {
+      "pergunta": "O turismo religioso é um destaque em Santa Rita. Em qual distrito do município fica o Santuário de Nossa Senhora de Fátima, um importante ponto de peregrinação?",
+      "opcoes": [
+        "Sede",
+        "Carema",
+        "Rio Preto",
+        "Tabatinga"
+      ],
+      "respostaCorreta": "Carema"
+    },
+    {
+      "pergunta": "Qual tipo de evento cultural é popular na cidade, com a apresentação de grupos folclóricos e danças tradicionais?",
+      "opcoes": [
+        "Festival de Quadrilhas",
+        "Festa do Bumba-Meu-Boi",
+        "Festival do Carimbó",
+        "Festa do Divino Espírito Santo"
+      ],
+      "respostaCorreta": "Festa do Bumba-Meu-Boi"
+    }
+  ]
+}

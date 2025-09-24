@@ -1,0 +1,76 @@
+{
+  "nome": "Tuntum",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome da cidade de Tuntum?",
+      "opcoes": [
+        "O nome de um rio",
+        "Uma onomatopeia do som de um tambor",
+        "Uma homenagem a um líder político",
+        "O nome de uma planta"
+      ],
+      "respostaCorreta": "Uma onomatopeia do som de um tambor"
+    },
+    {
+      "pergunta": "De qual município Tuntum se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Presidente Dutra",
+        "Barra do Corda",
+        "Caxias",
+        "Grajaú"
+      ],
+      "respostaCorreta": "Barra do Corda"
+    },
+    {
+      "pergunta": "Em qual ano Tuntum foi criado como município?",
+      "opcoes": [
+        "1945",
+        "1952",
+        "1961",
+        "1988"
+      ],
+      "respostaCorreta": "1952"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Tuntum?",
+      "opcoes": [
+        "Extração de gás natural",
+        "Pecuária e agricultura",
+        "Pesca artesanal",
+        "Produção de farinha"
+      ],
+      "respostaCorreta": "Pecuária e agricultura"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município, sendo um de seus principais recursos hídricos?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Itapecuru",
+        "Rio Balsas",
+        "Rio Flores"
+      ],
+      "respostaCorreta": "Rio Flores"
+    },
+    {
+      "pergunta": "Qual é o bioma predominante no território de Tuntum?",
+      "opcoes": [
+        "Cerrado",
+        "Caatinga",
+        "Mata Atlântica",
+        "Floresta Amazônica"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual das seguintes atividades culturais é um dos destaques de Tuntum, especialmente nas festividades juninas?",
+      "opcoes": [
+        "Festival de Quadrilhas",
+        "Bumba-meu-boi",
+        "Festa do Divino Espírito Santo",
+        "Carnaval de Rua"
+      ],
+      "respostaCorreta": "Bumba-meu-boi"
+    }
+  ]
+}

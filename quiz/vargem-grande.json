@@ -1,0 +1,86 @@
+{
+  "nome": "Vargem Grande",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual foi a data de emancipação de Vargem Grande, quando foi elevada à categoria de cidade?",
+      "opcoes": [
+        "21 de julho de 1870",
+        "29 de março de 1938",
+        "10 de novembro de 1994",
+        "2 de outubro de 1952"
+      ],
+      "respostaCorreta": "29 de março de 1938"
+    },
+    {
+      "pergunta": "De qual município Vargem Grande se desmembrou para se tornar uma vila em 1833?",
+      "opcoes": [
+        "Itapecuru-Mirim",
+        "Rosário",
+        "Coroatá",
+        "São Luís"
+      ],
+      "respostaCorreta": "Itapecuru-Mirim"
+    },
+    {
+      "pergunta": "Vargem Grande é conhecida por ser o 'berço' de qual figura ilustre, considerado o criador da antropologia criminal no Brasil?",
+      "opcoes": [
+        "Benedito Leite",
+        "Celso Furtado",
+        "Raimundo Nina Rodrigues",
+        "Gomes de Souza"
+      ],
+      "respostaCorreta": "Raimundo Nina Rodrigues"
+    },
+    {
+      "pergunta": "Qual dos seguintes rios é o principal responsável por abastecer a cidade com água encanada?",
+      "opcoes": [
+        "Rio Itapecuru",
+        "Rio Iguará",
+        "Rio Munim",
+        "Rio Preguiças"
+      ],
+      "respostaCorreta": "Rio Munim"
+    },
+    {
+      "pergunta": "Qual é a principal base econômica de Vargem Grande?",
+      "opcoes": [
+        "Extração de minério",
+        "Pecuária e agricultura",
+        "Turismo",
+        "Comércio e serviços"
+      ],
+      "respostaCorreta": "Pecuária e agricultura"
+    },
+    {
+      "pergunta": "Qual festa religiosa tradicional é celebrada em Vargem Grande no mês de janeiro?",
+      "opcoes": [
+        "Festejo de São José",
+        "Festejo de São Sebastião",
+        "Festa do Divino Espírito Santo",
+        "Romaria de Paulica"
+      ],
+      "respostaCorreta": "Festejo de São Sebastião"
+    },
+    {
+      "pergunta": "Qual é a microrregião à qual Vargem Grande pertence?",
+      "opcoes": [
+        "Rosário",
+        "Bacabal",
+        "Itapecuru-Mirim",
+        "Pindaré"
+      ],
+      "respostaCorreta": "Itapecuru-Mirim"
+    },
+    {
+      "pergunta": "Além dos rios, qual é um dos principais pontos turísticos de lazer na cidade, conhecido por um lago?",
+      "opcoes": [
+        "Parque dos Buritis",
+        "Balneário Moizinho",
+        "Lagoa da Pedra",
+        "Cachoeira do Arruda"
+      ],
+      "respostaCorreta": "Balneário Moizinho"
+    }
+  ]
+}

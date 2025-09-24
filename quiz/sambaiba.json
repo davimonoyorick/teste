@@ -1,0 +1,86 @@
+{
+  "nome": "Sambaíba",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Em que ano a cidade de Sambaíba foi elevada à categoria de município?",
+      "opcoes": [
+        "1923",
+        "1931",
+        "1953",
+        "1954"
+      ],
+      "respostaCorreta": "1953"
+    },
+    {
+      "pergunta": "De qual município Sambaíba se desmembrou para se tornar independente?",
+      "opcoes": [
+        "Loreto",
+        "Balsas",
+        "São Raimundo das Mangabeiras",
+        "Tasso Fragoso"
+      ],
+      "respostaCorreta": "São Raimundo das Mangabeiras"
+    },
+    {
+      "pergunta": "O nome do município é de origem tupi e tem relação com uma árvore. Qual é o significado mais provável do nome?",
+      "opcoes": [
+        "Rio da Canção",
+        "Árvore dos Sambistas",
+        "Grande Baía",
+        "Palmeira alta"
+      ],
+      "respostaCorreta": "Palmeira alta"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Sambaíba que a tem destacado na região?",
+      "opcoes": [
+        "Pecuária de corte",
+        "Extrativismo vegetal",
+        "Cultivo da soja e agronegócio",
+        "Produção de carvão vegetal"
+      ],
+      "respostaCorreta": "Cultivo da soja e agronegócio"
+    },
+    {
+      "pergunta": "A cidade de Sambaíba é popularmente conhecida como a 'Capital da...'?",
+      "opcoes": [
+        "Esperança",
+        "Fé",
+        "Pecuária",
+        "Amizade"
+      ],
+      "respostaCorreta": "Amizade"
+    },
+    {
+      "pergunta": "Em qual bioma o território de Sambaíba está inserido predominantemente?",
+      "opcoes": [
+        "Floresta Amazônica",
+        "Cerrado",
+        "Mata Atlântica",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "Qual rio banha o município de Sambaíba, sendo um importante recurso hídrico e de desenvolvimento?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Balsas",
+        "Rio Itapecuru",
+        "Rio Tocantins"
+      ],
+      "respostaCorreta": "Rio Balsas"
+    },
+    {
+      "pergunta": "Quem foi um dos primeiros colonos a se fixar na região e impulsionar o povoamento de Sambaíba?",
+      "opcoes": [
+        "João Graciliano Dutra",
+        "Bernardo Pereira de Arruda",
+        "Rosendo Rodrigues",
+        "João Melquíades"
+      ],
+      "respostaCorreta": "João Graciliano Dutra"
+    }
+  ]
+}

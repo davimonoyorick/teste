@@ -1,0 +1,66 @@
+{
+  "nome": "Santo Antônio dos Lopes",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Quem foi o fundador do povoado de Santo Antônio dos Lopes em 1922?",
+      "opcoes": [
+        "Antônio Mariano Lopes",
+        "Antônio Pereira Lopes",
+        "Joaquim Gonçalves Lopes",
+        "João Pereira de Sousa"
+      ],
+      "respostaCorreta": "Antônio Pereira Lopes"
+    },
+    {
+      "pergunta": "De qual município Santo Antônio dos Lopes se desmembrou para ser elevado à categoria de município?",
+      "opcoes": [
+        "Presidente Dutra",
+        "Pedreiras",
+        "Itapecuru-Mirim",
+        "Caxias"
+      ],
+      "respostaCorreta": "Pedreiras"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Santo Antônio dos Lopes que impulsionou seu desenvolvimento nos últimos anos?",
+      "opcoes": [
+        "Pecuária",
+        "Agricultura",
+        "Extração de gás natural",
+        "Produção de farinha"
+      ],
+      "respostaCorreta": "Extração de gás natural"
+    },
+    {
+      "pergunta": "Qual evento cultural anual é um dos destaques do município, com apresentações de bandas e artistas?",
+      "opcoes": [
+        "Festival do Peixe",
+        "Semana da Cultura",
+        "Festa da Mandioca",
+        "Carnaval Folclórico"
+      ],
+      "respostaCorreta": "Semana da Cultura"
+    },
+    {
+      "pergunta": "O nome do município é uma homenagem ao seu fundador e a qual santo?",
+      "opcoes": [
+        "São Pedro",
+        "Santo Antônio",
+        "São José",
+        "São Francisco"
+      ],
+      "respostaCorreta": "Santo Antônio"
+    },
+    {
+      "pergunta": "De acordo com as informações obtidas, qual é o bioma que cobre 100% do território de Santo Antônio dos Lopes?",
+      "opcoes": [
+        "Cerrado",
+        "Caatinga",
+        "Floresta Amazônica",
+        "Mata Atlântica"
+      ],
+      "respostaCorreta": "Cerrado"
+    }
+  ]
+}

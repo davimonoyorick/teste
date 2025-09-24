@@ -1,0 +1,66 @@
+{
+  "nome": "Rosário",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o nome original do povoado que deu origem à cidade de Rosário?",
+      "opcoes": [
+        "Vila do Itapecuru",
+        "Itapecuru-Grande",
+        "Santa Luzia",
+        "Arraial da Fé"
+      ],
+      "respostaCorreta": "Itapecuru-Grande"
+    },
+    {
+      "pergunta": "A cidade de Rosário foi fundada a partir da construção de qual fortificação pelos portugueses no século XVII?",
+      "opcoes": [
+        "Forte do Calvário",
+        "Forte São Luís",
+        "Forte de Santa Maria",
+        "Forte de Santo Antônio"
+      ],
+      "respostaCorreta": "Forte do Calvário"
+    },
+    {
+      "pergunta": "Qual é um dos rios mais importantes para Rosário, utilizado para transporte e sustento de parte da população?",
+      "opcoes": [
+        "Rio Pindaré",
+        "Rio Mearim",
+        "Rio Itapecuru",
+        "Rio Balsas"
+      ],
+      "respostaCorreta": "Rio Itapecuru"
+    },
+    {
+      "pergunta": "Além do turismo, qual é a atividade econômica de destaque em Rosário, que reflete a cultura local?",
+      "opcoes": [
+        "Produção de soja",
+        "Extração de sal",
+        "Fabricação de cerâmica e artesanato",
+        "Pecuária de corte"
+      ],
+      "respostaCorreta": "Fabricação de cerâmica e artesanato"
+    },
+    {
+      "pergunta": "A cultura de Rosário é rica em manifestações folclóricas. Qual das seguintes manifestações é uma das mais tradicionais na cidade?",
+      "opcoes": [
+        "Dança do Carimbó",
+        "Bumba-meu-boi sotaque de orquestra",
+        "Marujada",
+        "Cavalhada"
+      ],
+      "respostaCorreta": "Bumba-meu-boi sotaque de orquestra"
+    },
+    {
+      "pergunta": "O turismo em Rosário é impulsionado por suas belezas naturais. Qual atração turística é conhecida por suas águas cristalinas e é popular entre os visitantes?",
+      "opcoes": [
+        "Praia do Araçagi",
+        "Lagoa Azul",
+        "Cachoeira do Boqueirão",
+        "Parque Nacional dos Lençóis Maranhenses"
+      ],
+      "respostaCorreta": "Lagoa Azul"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "nome": "São Luís",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "São Luís é a única capital brasileira fundada por qual nação?",
+      "opcoes": [
+        "Portugueses",
+        "Espanhóis",
+        "Holandeses",
+        "Franceses"
+      ],
+      "respostaCorreta": "Franceses"
+    },
+    {
+      "pergunta": "A cidade foi nomeada em homenagem a qual figura histórica?",
+      "opcoes": [
+        "O rei Luís XIII da França",
+        "O rei D. João IV de Portugal",
+        "Um santo católico",
+        "Um explorador português"
+      ],
+      "respostaCorreta": "O rei Luís XIII da França"
+    },
+    {
+      "pergunta": "Em 1997, o centro histórico de São Luís foi declarado Patrimônio Mundial da Humanidade por qual organização?",
+      "opcoes": [
+        "ONU",
+        "UNESCO",
+        "OEA",
+        "UNICEF"
+      ],
+      "respostaCorreta": "UNESCO"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um apelido famoso de São Luís, devido à sua rica tradição literária?",
+      "opcoes": [
+        "A Cidade da Luz",
+        "A Atenas Brasileira",
+        "Veneza Brasileira",
+        "A Cidade Imperial"
+      ],
+      "respostaCorreta": "A Atenas Brasileira"
+    },
+    {
+      "pergunta": "Qual sotaque do Bumba-meu-boi é o mais popular e característico de São Luís, com destaque para a percussão de pandeirões e zabumbas?",
+      "opcoes": [
+        "Sotaque de Orquestra",
+        "Sotaque de Pindaré",
+        "Sotaque de Zabumba",
+        "Sotaque de Matraca"
+      ],
+      "respostaCorreta": "Sotaque de Matraca"
+    },
+    {
+      "pergunta": "Qual é o principal ritmo musical que dá a São Luís o título de 'Capital Brasileira do Reggae'?",
+      "opcoes": [
+        "Ska",
+        "Rocksteady",
+        "Reggae Roots",
+        "Dancehall"
+      ],
+      "respostaCorreta": "Reggae Roots"
+    },
+    {
+      "pergunta": "São Luís se destaca no setor econômico portuário. Qual dos seus portos é um dos mais movimentados e profundos do Brasil?",
+      "opcoes": [
+        "Porto do Itaqui",
+        "Porto de Santos",
+        "Porto do Pecém",
+        "Porto de Suape"
+      ],
+      "respostaCorreta": "Porto do Itaqui"
+    },
+    {
+      "pergunta": "Além da história e cultura, qual característica geográfica define a cidade de São Luís?",
+      "opcoes": [
+        "Sua localização no interior do estado",
+        "Sua localização em uma ilha",
+        "A presença de uma grande serra",
+        "A divisa com outro estado"
+      ],
+      "respostaCorreta": "Sua localização em uma ilha"
+    }
+  ]
+}
