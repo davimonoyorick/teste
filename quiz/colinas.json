@@ -1,0 +1,32 @@
+{
+  "nome": "São Luís",
+  "imagens": [
+  ],
+  "perguntas": [
+    {
+      "pergunta": "São Luís é a única capital brasileira fundada por qual país europeu?",
+      "opcoes": ["Portugal", "França", "Espanha", "Holanda"],
+      "respostaCorreta": "França"
+    },
+    {
+      "pergunta": "Em que ano São Luís foi fundada?",
+      "opcoes": ["1612", "1621", "1600", "1635"],
+      "respostaCorreta": "1612"
+    },
+    {
+      "pergunta": "Qual título cultural São Luís recebeu da UNESCO em 1997?",
+      "opcoes": ["Capital da Amazônia", "Cidade da Música", "Patrimônio Mundial", "Cidade Verde"],
+      "respostaCorreta": "Patrimônio Mundial"
+    },
+    {
+      "pergunta": "Qual é a principal festa popular de São Luís?",
+      "opcoes": ["Bumba meu boi", "Carnaval", "Festa Junina", "Círio de Nazaré"],
+      "respostaCorreta": "Bumba meu boi"
+    },
+    {
+      "pergunta": "O centro histórico de São Luís é conhecido por seus casarões coloniais com azulejos de origem:",
+      "opcoes": ["Francesa", "Holandesa", "Portuguesa", "Espanhola"],
+      "respostaCorreta": "Portuguesa"
+    }
+  ]
+}

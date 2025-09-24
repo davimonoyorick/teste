@@ -1,0 +1,98 @@
+{
+  "nome": "Cedral",
+  "imagens": [
+
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a praia mais famosa de Cedral, conhecida por suas belezas naturais e por sediar a tradicional Regata do Outeiro?",
+      "opcoes": [
+        "Praia de Pericáua",
+        "Praia do Mangue Seco",
+        "Praia do Outeiro",
+        "Praia de Restinga"
+      ],
+      "respostaCorreta": "Praia do Outeiro"
+    },
+    {
+      "pergunta": "O Tambor de Crioula, presente em Cedral, é frequentemente praticado como divertimento ou em devoção a qual santo?",
+      "opcoes": [
+        "São Pedro",
+        "São João",
+        "São Benedito",
+        "São José"
+      ],
+      "respostaCorreta": "São Benedito"
+    },
+    {
+      "pergunta": "Qual é a padroeira do município de Cedral, cuja festa religiosa é uma das mais importantes da cidade, celebrada em 8 de dezembro?",
+      "opcoes": [
+        "Nossa Senhora da Glória",
+        "Nossa Senhora da Conceição",
+        "Nossa Senhora da Vitória",
+        "Nossa Senhora de Fátima"
+      ],
+      "respostaCorreta": "Nossa Senhora da Conceição"
+    },
+    {
+      "pergunta": "A que ecossistema, que abrange Cedral e outros municípios vizinhos, pertence a famosa Floresta dos Guarás?",
+      "opcoes": [
+        "Reserva do Itapiracó",
+        "Reserva Extrativista de Cururupu",
+        "Reserva Biológica do Gurupi",
+        "Parque Nacional dos Lençóis Maranhenses"
+      ],
+      "respostaCorreta": "Reserva Extrativista de Cururupu"
+    },
+    {
+      "pergunta": "Qual rio, um dos mais importantes do Maranhão, banha o município de Cedral e é fundamental para as comunidades locais?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Tocantins",
+        "Rio Mearim",
+        "Rio Grajaú"
+      ],
+      "respostaCorreta": "Rio Mearim"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de subsistência em Cedral?",
+      "opcoes": [
+        "Criação de gado",
+        "Produção de algodão",
+        "Pesca artesanal e agricultura familiar",
+        "Comércio de eletrônicos"
+      ],
+      "respostaCorreta": "Pesca artesanal e agricultura familiar"
+    },
+    {
+      "pergunta": "O nome 'Cedral' está ligado à abundância de qual tipo de árvore na região?",
+      "opcoes": [
+        "Cajueiro",
+        "Carnaúba",
+        "Cedro",
+        "Buriti"
+      ],
+      "respostaCorreta": "Cedro"
+    },
+    {
+      "pergunta": "A cidade de Cedral se desmembrou de qual outro município?",
+      "opcoes": [
+        "Mirinzal",
+        "Pinheiro",
+        "Cururupu",
+        "Guimarães"
+      ],
+      "respostaCorreta": "Mirinzal"
+    },
+    {
+      "pergunta": "O povoado que deu origem a Cedral era historicamente conhecido pela sua ligação com a qual tipo de ambiente?",
+      "opcoes": [
+        "Sertão",
+        "Chapada",
+        "Litoral e Manguezal",
+        "Região de cerrado"
+      ],
+      "respostaCorreta": "Litoral e Manguezal"
+    }
+  ]
+}

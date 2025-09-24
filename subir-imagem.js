@@ -1,22 +1,26 @@
 const fs = require("fs");
 const path = require("path");
 
-// Caminho da pasta "lago-da-pedra"
-const pastaImagens = path.join(__dirname, "imagens", "benedito-leite");
+// Vetor com os municípios que você quer processar
+const municipios = ["benedito-leite", "buriti-bravo", "lago-da-pedra"];
 
-// Lê os arquivos da pasta
-const arquivos = fs.readdirSync(pastaImagens);
+// Para cada município...
+municipios.forEach(municipio => {
+  const pastaImagens = path.join(__dirname, "imagens", municipio);
+  const arquivos = fs.readdirSync(pastaImagens);
 
-// Filtra só imagens (png, jpg, jpeg)
-const imagens = arquivos.filter(f => f.match(/\.(png|jpg|jpeg)$/i));
+  // Filtra só imagens
+  const imagens = arquivos.filter(f => f.match(/\.(png|jpg|jpeg)$/i));
 
-// Carrega JSON existente
-let dados = JSON.parse(fs.readFileSync('./quiz/benedito-leite.json', 'utf8'));
+  // Lê o JSON do município correspondente
+  const jsonPath = `./quiz/${municipio}.json`;
+  let dados = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
 
-// Atualiza o campo "imagens" apenas com os nomes
-dados.imagens = imagens;
+  // Atualiza o campo imagens
+  dados.imagens = imagens;
 
-// Salva de volta no arquivo
-fs.writeFileSync('./quiz/benedito-leite.json', JSON.stringify(dados, null, 2), 'utf8');
+  // Salva de volta
+  fs.writeFileSync(jsonPath, JSON.stringify(dados, null, 2), "utf8");
 
-console.log("✅ Imagens da pasta adicionadas no JSON!");
+  console.log(`✅ Imagens adicionadas para ${municipio}`);
+});

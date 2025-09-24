@@ -1,0 +1,56 @@
+{
+  "nome": "Cantanhede",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Em que ano Cantanhede foi emancipada como município?",
+      "opcoes": ["1952", "1945", "1960", "1938"],
+      "respostaCorreta": "1952"
+    },
+    {
+      "pergunta": "O nome do município é uma homenagem a qual localidade portuguesa?",
+      "opcoes": ["Lisboa", "Porto", "Cantanhede", "Coimbra"],
+      "respostaCorreta": "Cantanhede"
+    },
+    {
+      "pergunta": "Antes da emancipação, Cantanhede era distrito de qual cidade maranhense?",
+      "opcoes": ["Itapecuru-Mirim", "Caxias", "Vargem Grande", "São Mateus"],
+      "respostaCorreta": "Itapecuru-Mirim"
+    },
+    {
+      "pergunta": "Cantanhede está inserida em qual microrregião do Maranhão?",
+      "opcoes": ["Munim", "Médio Mearim", "Codó", "Baixada Maranhense"],
+      "respostaCorreta": "Munim"
+    },
+    {
+      "pergunta": "Qual atividade econômica tem grande importância no município de Cantanhede?",
+      "opcoes": ["Agropecuária", "Turismo de praia", "Mineração de ferro", "Indústria naval"],
+      "respostaCorreta": "Agropecuária"
+    },
+    {
+      "pergunta": "Entre as manifestações culturais de Cantanhede, destaca-se:",
+      "opcoes": ["Bumba meu boi", "Cavalhadas", "Congado", "Folia de Reis"],
+      "respostaCorreta": "Bumba meu boi"
+    },
+    {
+      "pergunta": "Cantanhede é conhecida por estar situada próxima a qual importante rodovia federal?",
+      "opcoes": ["BR-135", "BR-222", "BR-316", "BR-010"],
+      "respostaCorreta": "BR-135"
+    },
+    {
+      "pergunta": "A padroeira do município de Cantanhede é:",
+      "opcoes": ["Nossa Senhora da Conceição", "Nossa Senhora de Nazaré", "Nossa Senhora do Carmo", "Santa Luzia"],
+      "respostaCorreta": "Nossa Senhora da Conceição"
+    },
+    {
+      "pergunta": "O município de Cantanhede é banhado por qual importante rio da região?",
+      "opcoes": ["Rio Itapecuru", "Rio Mearim", "Rio Parnaíba", "Rio Munim"],
+      "respostaCorreta": "Rio Itapecuru"
+    },
+    {
+      "pergunta": "O território de Cantanhede está localizado em qual bioma predominante?",
+      "opcoes": ["Cerrado", "Mata Atlântica", "Caatinga", "Amazônia"],
+      "respostaCorreta": "Cerrado"
+    }
+  ]
+}
