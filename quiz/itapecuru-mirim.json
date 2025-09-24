@@ -1,0 +1,86 @@
+{
+  "nome": "Itapecuru-Mirim",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é o significado do nome 'Itapecuru-Mirim' em tupi?",
+      "opcoes": [
+        "Rio das Águas Claras",
+        "Caminho de Pedras Pequenas",
+        "Terra da Promissão",
+        "Cidade do Rio Grande"
+      ],
+      "respostaCorreta": "Caminho de Pedras Pequenas"
+    },
+    {
+      "pergunta": "Antes de ser Itapecuru-Mirim, o primeiro núcleo de povoamento era conhecido como...",
+      "opcoes": [
+        "Vila Velha",
+        "Feira do Gado",
+        "Povoado do Rio",
+        "Engenho do Gato"
+      ],
+      "respostaCorreta": "Feira do Gado"
+    },
+    {
+      "pergunta": "Qual figura histórica foi um importante líder político e um dos primeiros a buscar a autonomia da Vila de Itapecuru-Mirim?",
+      "opcoes": [
+        "Manoel Beckman",
+        "Gonçalves Dias",
+        "Gomes de Souza",
+        "João do Vale"
+      ],
+      "respostaCorreta": "Gomes de Souza"
+    },
+    {
+      "pergunta": "Em que ano a povoação foi elevada à categoria de cidade?",
+      "opcoes": [
+        "1870",
+        "1901",
+        "1817",
+        "1931"
+      ],
+      "respostaCorreta": "1870"
+    },
+    {
+      "pergunta": "Itapecuru-Mirim é um dos municípios maranhenses com a maior concentração de qual tipo de comunidade, reconhecida oficialmente?",
+      "opcoes": [
+        "Comunidades ribeirinhas",
+        "Comunidades indígenas",
+        "Comunidades quilombolas",
+        "Comunidades de pescadores"
+      ],
+      "respostaCorreta": "Comunidades quilombolas"
+    },
+    {
+      "pergunta": "Além da agricultura, o município se destaca na produção de tijolos e telhas, sendo um polo de qual setor?",
+      "opcoes": [
+        "Siderúrgico",
+        "Ceramista",
+        "Têxtil",
+        "Extrativista"
+      ],
+      "respostaCorreta": "Ceramista"
+    },
+    {
+      "pergunta": "Qual rio divide o município e é uma das principais referências geográficas da cidade?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Itapecuru",
+        "Rio Munim",
+        "Rio Parnaíba"
+      ],
+      "respostaCorreta": "Rio Itapecuru"
+    },
+    {
+      "pergunta": "O carnaval de Itapecuru-Mirim é conhecido por uma manifestação cultural popular. Qual é a principal dança dessa festividade?",
+      "opcoes": [
+        "Dança Portuguesa",
+        "Cacuriá",
+        "Boi de Axixá",
+        "Carnaval de Rua"
+      ],
+      "respostaCorreta": "Carnaval de Rua"
+    }
+  ]
+}

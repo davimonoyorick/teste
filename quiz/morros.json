@@ -1,0 +1,86 @@
+{
+  "nome": "Morros",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'Morros'?",
+      "opcoes": [
+        "Uma lenda local",
+        "A família de um dos fundadores",
+        "Os numerosos morros (elevações) existentes no local",
+        "Uma planta típica da região"
+      ],
+      "respostaCorreta": "Os numerosos morros (elevações) existentes no local"
+    },
+    {
+      "pergunta": "Qual dos rios é considerado a principal atração turística da cidade e é muito usado para passeios de barco?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Munim",
+        "Rio Una",
+        "Rio Grajaú"
+      ],
+      "respostaCorreta": "Rio Una"
+    },
+    {
+      "pergunta": "A cidade de Morros se desmembrou de qual outro município para ser elevada à categoria de vila em 1898?",
+      "opcoes": [
+        "Rosário",
+        "Icatu",
+        "Axixá",
+        "São Luís"
+      ],
+      "respostaCorreta": "Icatu"
+    },
+    {
+      "pergunta": "Qual evento cultural se destaca em Morros, principalmente no período junino?",
+      "opcoes": [
+        "Tambor de Crioula",
+        "Cacuriá",
+        "Bumba-meu-boi de Morros",
+        "Festa do Divino"
+      ],
+      "respostaCorreta": "Bumba-meu-boi de Morros"
+    },
+    {
+      "pergunta": "A cidade é popularmente conhecida por qual apelido, devido à sua riqueza hídrica?",
+      "opcoes": [
+        "Princesa do Mar",
+        "Cidade Verde",
+        "O Paraíso das Águas",
+        "Berço do Sertão"
+      ],
+      "respostaCorreta": "O Paraíso das Águas"
+    },
+    {
+      "pergunta": "Qual é a padroeira da principal igreja de Morros?",
+      "opcoes": [
+        "Nossa Senhora da Conceição",
+        "Nossa Senhora da Piedade",
+        "Nossa Senhora do Rosário",
+        "Nossa Senhora da Guia"
+      ],
+      "respostaCorreta": "Nossa Senhora da Piedade"
+    },
+    {
+      "pergunta": "Qual é um dos pontos turísticos naturais de Morros, conhecido por suas quedas d'água?",
+      "opcoes": [
+        "Balneário do Mearim",
+        "Cachoeira do Arruda",
+        "Serra do Penitente",
+        "Praia de Panaquatira"
+      ],
+      "respostaCorreta": "Cachoeira do Arruda"
+    },
+    {
+      "pergunta": "Além da agricultura, qual setor econômico tem destaque em Morros, sendo uma importante fonte de renda?",
+      "opcoes": [
+        "Comércio e serviços",
+        "Extração de minério",
+        "Pecuária bovina",
+        "Indústria de cerâmica"
+      ],
+      "respostaCorreta": "Comércio e serviços"
+    }
+  ]
+}

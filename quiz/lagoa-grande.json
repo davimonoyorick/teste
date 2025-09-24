@@ -1,0 +1,76 @@
+{
+  "nome": "Lagoa Grande do Maranhão",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "O nome 'Lagoa Grande' surgiu a partir de qual característica geográfica?",
+      "opcoes": [
+        "Uma lagoa de água salgada",
+        "Um rio grande que atravessa a cidade",
+        "Uma lagoa de água doce que abastecia os primeiros habitantes",
+        "Uma lenda local"
+      ],
+      "respostaCorreta": "Uma lagoa de água doce que abastecia os primeiros habitantes"
+    },
+    {
+      "pergunta": "De qual município Lagoa Grande do Maranhão se desmembrou em 1994?",
+      "opcoes": [
+        "Pindaré-Mirim",
+        "Bacabal",
+        "Lago da Pedra",
+        "Timbiras"
+      ],
+      "respostaCorreta": "Lago da Pedra"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica do setor primário que predomina em Lagoa Grande do Maranhão?",
+      "opcoes": [
+        "Agricultura de soja",
+        "Pecuária bovina",
+        "Extração de minério",
+        "Pesca artesanal"
+      ],
+      "respostaCorreta": "Pecuária bovina"
+    },
+    {
+      "pergunta": "Qual dos seguintes nomes está na lista dos primeiros moradores do povoado que deu origem a Lagoa Grande do Maranhão?",
+      "opcoes": [
+        "Rosendo Rodrigues",
+        "João Porfírio",
+        "Antônio Francisco dos Reis",
+        "José de Almeida"
+      ],
+      "respostaCorreta": "João Porfírio"
+    },
+    {
+      "pergunta": "Qual é a microrregião à qual Lagoa Grande do Maranhão pertence?",
+      "opcoes": [
+        "Bacabal",
+        "Pindaré",
+        "Chapada das Mesas",
+        "Imperatriz"
+      ],
+      "respostaCorreta": "Pindaré"
+    },
+    {
+      "pergunta": "A cultura do município de Lagoa Grande do Maranhão é conhecida por qual tipo de evento junino?",
+      "opcoes": [
+        "Festival de Quadrilhas",
+        "Festa da Uva e do Vinho",
+        "Festival de Jazz",
+        "Carnaval de rua"
+      ],
+      "respostaCorreta": "Festival de Quadrilhas"
+    },
+    {
+      "pergunta": "Qual é o santo padroeiro da Igreja Matriz de Lagoa Grande do Maranhão?",
+      "opcoes": [
+        "São Francisco de Assis",
+        "São José",
+        "Nossa Senhora da Conceição",
+        "Santo Antônio"
+      ],
+      "respostaCorreta": "São José"
+    }
+  ]
+}

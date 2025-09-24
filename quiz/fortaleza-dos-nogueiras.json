@@ -1,0 +1,86 @@
+{
+  "nome": "Fortaleza dos Nogueiras",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'Fortaleza dos Nogueiras'?",
+      "opcoes": [
+        "Uma antiga fortaleza militar",
+        "Uma cidade cercada por serras e uma família de criadores de gado",
+        "Uma planta típica da região",
+        "O nome de um explorador"
+      ],
+      "respostaCorreta": "Uma cidade cercada por serras e uma família de criadores de gado"
+    },
+    {
+      "pergunta": "Qual outro município do Maranhão deu origem a Fortaleza dos Nogueiras?",
+      "opcoes": [
+        "Riachão",
+        "Balsas",
+        "São Raimundo das Mangabeiras",
+        "Feira Nova do Maranhão"
+      ],
+      "respostaCorreta": "Riachão"
+    },
+    {
+      "pergunta": "Antes de se tornar um município, a área era conhecida por qual nome, dado pelos primeiros caçadores?",
+      "opcoes": [
+        "Toca da Capivara",
+        "Lagoa do Itapecuru",
+        "Vila da Soja",
+        "Lagoa da Fortuna"
+      ],
+      "respostaCorreta": "Lagoa da Fortuna"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Fortaleza dos Nogueiras, responsável por grande parte de sua produção?",
+      "opcoes": [
+        "Pecuária",
+        "Produção de soja",
+        "Comércio de artesanato",
+        "Extração de minério"
+      ],
+      "respostaCorreta": "Produção de soja"
+    },
+    {
+      "pergunta": "O território de Fortaleza dos Nogueiras é 100% composto por qual bioma?",
+      "opcoes": [
+        "Mata dos Cocais",
+        "Floresta Amazônica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "A qual comarca o município de Fortaleza dos Nogueiras foi subordinado após sua criação?",
+      "opcoes": [
+        "Riachão",
+        "São Luís",
+        "Carolina",
+        "Balsas"
+      ],
+      "respostaCorreta": "Balsas"
+    },
+    {
+      "pergunta": "Qual evento cultural celebra a vida no campo e é um dos destaques do município?",
+      "opcoes": [
+        "Festa do Arroz",
+        "Festa do Vaqueiro",
+        "Festival da Mandioca",
+        "Carnaval de Rua"
+      ],
+      "respostaCorreta": "Festa do Vaqueiro"
+    },
+    {
+      "pergunta": "Um dos pontos turísticos naturais do município é a cachoeira do...",
+      "opcoes": [
+        "Macapá",
+        "Pedra Caída",
+        "Salto da Sucupira",
+        "Santo Antônio"
+      ],
+      "respostaCorreta": "Macapá"
+    }
+  ]
+}

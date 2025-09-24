@@ -1,0 +1,86 @@
+{
+  "nome": "Humberto de Campos",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o nome original da povoação que deu origem ao município de Humberto de Campos?",
+      "opcoes": [
+        "Mocambo",
+        "Açude Velho",
+        "Miritiba de São José do Periá",
+        "Apuí"
+      ],
+      "respostaCorreta": "Miritiba de São José do Periá"
+    },
+    {
+      "pergunta": "O nome do município é uma homenagem a qual escritor e membro da Academia Brasileira de Letras?",
+      "opcoes": [
+        "Humberto de Campos",
+        "Mário de Andrade",
+        "Machado de Assis",
+        "Monteiro Lobato"
+      ],
+      "respostaCorreta": "Humberto de Campos"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão banha o município de Humberto de Campos?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Mearim",
+        "Rio Preto",
+        "Rio Munim"
+      ],
+      "respostaCorreta": "Rio Munim"
+    },
+    {
+      "pergunta": "O município faz parte de qual famosa área geográfica e ambiental do Maranhão, conhecida por seus Lençóis?",
+      "opcoes": [
+        "Delta do Parnaíba",
+        "Floresta dos Guarás",
+        "Parque Nacional dos Lençóis Maranhenses",
+        "Chapada das Mesas"
+      ],
+      "respostaCorreta": "Parque Nacional dos Lençóis Maranhenses"
+    },
+    {
+      "pergunta": "Qual é a principal base econômica de Humberto de Campos?",
+      "opcoes": [
+        "Pecuária",
+        "Agricultura e extrativismo",
+        "Turismo",
+        "Indústria"
+      ],
+      "respostaCorreta": "Agricultura e extrativismo"
+    },
+    {
+      "pergunta": "Qual manifestação cultural é um dos destaques de Humberto de Campos, principalmente no período junino?",
+      "opcoes": [
+        "Bumba-meu-boi",
+        "Tambor de Crioula",
+        "Cacuriá",
+        "Dança Portuguesa"
+      ],
+      "respostaCorreta": "Bumba-meu-boi"
+    },
+    {
+      "pergunta": "A região de Humberto de Campos se destaca pelo cultivo de qual palmeira, da qual se extrai um importante azeite?",
+      "opcoes": [
+        "Babaçu",
+        "Buriti",
+        "Carnaúba",
+        "Dendê"
+      ],
+      "respostaCorreta": "Buriti"
+    },
+    {
+      "pergunta": "Qual é a principal fonte de renda para as comunidades locais nas áreas rurais de Humberto de Campos?",
+      "opcoes": [
+        "Plantio de eucalipto",
+        "Extração de sal",
+        "Pesca e agricultura de subsistência",
+        "Fabricação de tijolos"
+      ],
+      "respostaCorreta": "Pesca e agricultura de subsistência"
+    }
+  ]
+}

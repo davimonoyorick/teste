@@ -1,0 +1,96 @@
+{
+  "nome": "Conceição do Lago Açu",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Conceição do Lago Açu se desmembrou de qual outro município para se tornar independente em 1994?",
+      "opcoes": [
+        "Bacabal",
+        "Vitória do Mearim",
+        "Pindaré-Mirim",
+        "Tutoia"
+      ],
+      "respostaCorreta": "Vitória do Mearim"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Conceição do Lago Açu, que lhe rendeu o título de 'cidade do camarão doce'?",
+      "opcoes": [
+        "Agricultura de algodão",
+        "Pecuária de gado bovino",
+        "Pesca e produção de camarão de água doce",
+        "Extração de minério"
+      ],
+      "respostaCorreta": "Pesca e produção de camarão de água doce"
+    },
+    {
+      "pergunta": "O nome do município se deve à devoção a Nossa Senhora da Conceição e a qual grande corpo de água que caracteriza a região?",
+      "opcoes": [
+        "Rio Pindaré",
+        "Lago da Carnaúba",
+        "Lago Açu",
+        "Lago dos Papagaios"
+      ],
+      "respostaCorreta": "Lago Açu"
+    },
+    {
+      "pergunta": "A população de Conceição do Lago Açu é conhecida por sua forte ligação com a natureza. Em qual bacia hidrográfica o lago principal do município está inserido?",
+      "opcoes": [
+        "Bacia do Rio Grajaú",
+        "Bacia do Rio Parnaíba",
+        "Bacia do Rio Tocantins",
+        "Bacia do Rio Itapecuru"
+      ],
+      "respostaCorreta": "Bacia do Rio Grajaú"
+    },
+    {
+      "pergunta": "Em Conceição do Lago Açu, o período de cheia, que inunda grandes áreas de terra e é essencial para o ecossistema local, ocorre principalmente entre quais meses?",
+      "opcoes": [
+        "Março e Junho",
+        "Julho e Setembro",
+        "Janeiro e Junho",
+        "Agosto e Dezembro"
+      ],
+      "respostaCorreta": "Janeiro e Junho"
+    },
+    {
+      "pergunta": "Além da pesca, a culinária de Conceição do Lago Açu é marcada por pratos típicos. Qual ingrediente é base da culinária local?",
+      "opcoes": [
+        "Carne de sol",
+        "Milho",
+        "Mandioca e peixe",
+        "Frutas tropicais"
+      ],
+      "respostaCorreta": "Mandioca e peixe"
+    },
+    {
+      "pergunta": "O turismo ecológico em Conceição do Lago Açu é um grande potencial da região. Quais atividades são muito populares para quem visita a cidade?",
+      "opcoes": [
+        "Surf e mergulho",
+        "Trilhas em montanhas",
+        "Pesca esportiva e passeios de barco",
+        "Esqui na neve"
+      ],
+      "respostaCorreta": "Pesca esportiva e passeios de barco"
+    },
+    {
+      "pergunta": "Qual é a característica geográfica que torna o Lago Açu uma das maiores reservas de água doce da região?",
+      "opcoes": [
+        "É um lago de cratera vulcânica",
+        "É alimentado por águas subterrâneas",
+        "É formado pela inundação de rios na época de cheia",
+        "É um lago artificial"
+      ],
+      "respostaCorreta": "É formado pela inundação de rios na época de cheia"
+    },
+    {
+      "pergunta": "O município de Conceição do Lago Açu pertence a qual mesorregião do estado do Maranhão?",
+      "opcoes": [
+        "Norte Maranhense",
+        "Oeste Maranhense",
+        "Leste Maranhense",
+        "Centro Maranhense"
+      ],
+      "respostaCorreta": "Norte Maranhense"
+    }
+  ]
+}

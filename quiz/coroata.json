@@ -1,0 +1,106 @@
+{
+  "nome": "Coroatá",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é a origem do nome 'Coroatá'?",
+      "opcoes": [
+        "Um antigo morador da cidade",
+        "Uma planta indígena chamada coroatá-açu",
+        "Uma expressão em tupi-guarani que significa 'terra fértil'",
+        "O nome de um rio local"
+      ],
+      "respostaCorreta": "Uma planta indígena chamada coroatá-açu"
+    },
+    {
+      "pergunta": "Qual rio banha o município de Coroatá e foi fundamental para o seu desenvolvimento?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Tocantins",
+        "Rio Itapecuru",
+        "Rio Mearim"
+      ],
+      "respostaCorreta": "Rio Itapecuru"
+    },
+    {
+      "pergunta": "A cidade de Coroatá se desmembrou de qual município para se tornar uma vila em 1843?",
+      "opcoes": [
+        "Caxias",
+        "Codó",
+        "Timbiras",
+        "Peritoró"
+      ],
+      "respostaCorreta": "Caxias"
+    },
+    {
+      "pergunta": "Além dos primeiros habitantes, qual grupo de imigrantes contribuiu significativamente para o desenvolvimento comercial de Coroatá?",
+      "opcoes": [
+        "Japoneses",
+        "Portugueses",
+        "Sírio-libaneses",
+        "Italianos"
+      ],
+      "respostaCorreta": "Sírio-libaneses"
+    },
+    {
+      "pergunta": "Qual é a padroeira de Coroatá, cuja igreja é um importante ponto turístico?",
+      "opcoes": [
+        "Nossa Senhora da Vitória",
+        "Nossa Senhora da Conceição",
+        "Nossa Senhora da Piedade",
+        "Nossa Senhora de Fátima"
+      ],
+      "respostaCorreta": "Nossa Senhora da Piedade"
+    },
+    {
+      "pergunta": "Qual foi um dos fatores, além do rio, que impulsionou o crescimento da cidade?",
+      "opcoes": [
+        "A descoberta de ouro",
+        "A construção de uma rodovia federal",
+        "A ligação ferroviária com Teresina e São Luís",
+        "O desenvolvimento de um porto fluvial"
+      ],
+      "respostaCorreta": "A ligação ferroviária com Teresina e São Luís"
+    },
+    {
+      "pergunta": "Qual é um dos principais pontos turísticos de Coroatá, oferecendo uma vista panorâmica da cidade?",
+      "opcoes": [
+        "A Praça Monsenhor Estrela",
+        "O Morro do Machado",
+        "A Catedral Nossa Senhora da Piedade",
+        "O Estádio Municipal Vitor Trovão"
+      ],
+      "respostaCorreta": "O Morro do Machado"
+    },
+    {
+      "pergunta": "Em qual bioma o território de Coroatá está predominantemente inserido?",
+      "opcoes": [
+        "Mata Atlântica",
+        "Floresta Amazônica",
+        "Caatinga",
+        "Cerrado"
+      ],
+      "respostaCorreta": "Cerrado"
+    },
+    {
+      "pergunta": "O que o município de Coroatá se destaca em sua economia, além da administração pública?",
+      "opcoes": [
+        "Atividades de mineração e exploração de petróleo",
+        "Produção de algodão e soja",
+        "Atividades de fabricação de produtos diversos e comércio",
+        "Pesca e agricultura familiar"
+      ],
+      "respostaCorreta": "Atividades de fabricação de produtos diversos e comércio"
+    },
+    {
+      "pergunta": "A cidade de Coroatá faz parte de qual microrregião maranhense?",
+      "opcoes": [
+        "Baixada Maranhense",
+        "Pindaré",
+        "Codó",
+        "Imperatriz"
+      ],
+      "respostaCorreta": "Codó"
+    }
+  ]
+}

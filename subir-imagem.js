@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Vetor com os municípios que você quer processar
-const municipios = ["benedito-leite", "buriti-bravo", "lago-da-pedra"];
+const municipios = ["colinas", "cantanhede"];
 
 // Para cada município...
 municipios.forEach(municipio => {

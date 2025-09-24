@@ -1,0 +1,86 @@
+{
+  "nome": "Lago da Pedra",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Em que ano a história de Lago da Pedra teve início com a chegada dos primeiros moradores?",
+      "opcoes": [
+        "1929",
+        "1931",
+        "1948",
+        "1952"
+      ],
+      "respostaCorreta": "1929"
+    },
+    {
+      "pergunta": "Segundo a história, quem foi o primeiro morador e autor do nome da cidade?",
+      "opcoes": [
+        "Cândido Adão Sales de Oliveira",
+        "Rosendo Rodrigues",
+        "Joaquim Bastos",
+        "José Gago"
+      ],
+      "respostaCorreta": "Rosendo Rodrigues"
+    },
+    {
+      "pergunta": "A origem do nome 'Lago da Pedra' se deve à descoberta de qual característica geográfica?",
+      "opcoes": [
+        "Um lago e uma cachoeira",
+        "Um lago com peixes ornamentais",
+        "Um grande lago e um fragmento de rocha em suas margens",
+        "Um rio e uma montanha"
+      ],
+      "respostaCorreta": "Um grande lago e um fragmento de rocha em suas margens"
+    },
+    {
+      "pergunta": "Qual era a principal atividade econômica dos primeiros moradores de Lago da Pedra?",
+      "opcoes": [
+        "Comércio de especiarias",
+        "Pecuária",
+        "Extração de minério",
+        "Agricultura de subsistência"
+      ],
+      "respostaCorreta": "Agricultura de subsistência"
+    },
+    {
+      "pergunta": "Qual foi o nome original do distrito que deu origem ao município de Lago da Pedra?",
+      "opcoes": [
+        "Porto da Chapada",
+        "Jejuí",
+        "Açude Velho",
+        "Miritiba"
+      ],
+      "respostaCorreta": "Jejuí"
+    },
+    {
+      "pergunta": "Antes de sua emancipação, o distrito de Lago da Pedra estava subordinado a qual município?",
+      "opcoes": [
+        "Bacabal",
+        "Pindaré-Mirim",
+        "Vitória do Mearim",
+        "Timbiras"
+      ],
+      "respostaCorreta": "Vitória do Mearim"
+    },
+    {
+      "pergunta": "De quais municípios Lago da Pedra foi desmembrado para se emancipar?",
+      "opcoes": [
+        "Vitória do Mearim e Timbiras",
+        "Vitória do Mearim e Bacabal",
+        "Pindaré-Mirim e Vargem Grande",
+        "Bacabal e Codó"
+      ],
+      "respostaCorreta": "Vitória do Mearim e Bacabal"
+    },
+    {
+      "pergunta": "Quem foi o primeiro administrador provisório de Lago da Pedra após sua emancipação?",
+      "opcoes": [
+        "Antônio Bandeira Lima",
+        "Luciano Rodrigues",
+        "Antonio da Silva Coelho",
+        "Rosendo Rodrigues"
+      ],
+      "respostaCorreta": "Antonio da Silva Coelho"
+    }
+  ]
+}

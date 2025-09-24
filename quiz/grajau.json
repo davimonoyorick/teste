@@ -1,0 +1,86 @@
+{
+  "nome": "Grajaú",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é o significado do nome 'Grajaú', de origem tupi?",
+      "opcoes": [
+        "Rio dos Tucanos",
+        "Rio dos Gaviões",
+        "Rio dos Carajás",
+        "Rio da Paz"
+      ],
+      "respostaCorreta": "Rio dos Carajás"
+    },
+    {
+      "pergunta": "Quem foi o fundador de Grajaú, à margem leste do Rio Grajaú, em 11 de março de 1811?",
+      "opcoes": [
+        "Antônio Francisco dos Reis",
+        "Militão Bandeira Barros",
+        "José Lourenço da Silva Milanês",
+        "Manoel Valentim Fernandes"
+      ],
+      "respostaCorreta": "Antônio Francisco dos Reis"
+    },
+    {
+      "pergunta": "A cidade de Grajaú se originou do local conhecido como 'Porto da Chapada'. Qual era o nome primitivo da vila que deu origem à cidade?",
+      "opcoes": [
+        "Chapada",
+        "São Pedro",
+        "Bom Jesus",
+        "Vitória"
+      ],
+      "respostaCorreta": "Chapada"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Grajaú que tem impulsionado a economia local?",
+      "opcoes": [
+        "Pesca artesanal",
+        "Cultivo da soja",
+        "Extração de babaçu",
+        "Produção de ferro-gusa"
+      ],
+      "respostaCorreta": "Cultivo da soja"
+    },
+    {
+      "pergunta": "Qual é um dos principais pontos turísticos naturais de Grajaú, conhecida por suas quedas d'água?",
+      "opcoes": [
+        "Cachoeira da Pedra Caída",
+        "Cachoeira do Boi Morto",
+        "Cachoeira do Morcego",
+        "Cachoeira de Santa Bárbara"
+      ],
+      "respostaCorreta": "Cachoeira do Morcego"
+    },
+    {
+      "pergunta": "Grajaú é o local onde acontece anualmente uma importante feira do agronegócio. Qual é o nome dessa feira?",
+      "opcoes": [
+        "Festa do Vaqueiro",
+        "EXPOAGRA",
+        "Festival do Peixe",
+        "Feira da Agricultura Familiar"
+      ],
+      "respostaCorreta": "EXPOAGRA"
+    },
+    {
+      "pergunta": "Qual foi o primeiro distrito a se desmembrar de Grajaú, em 1953, dando origem a outro município?",
+      "opcoes": [
+        "Sítio Novo do Grajaú",
+        "Amarante do Grajaú",
+        "Barão de Grajaú",
+        "Tasso Fragoso"
+      ],
+      "respostaCorreta": "Amarante do Grajaú"
+    },
+    {
+      "pergunta": "Além da agricultura, a economia de Grajaú tem destaque na indústria. Qual produto industrial é importante para o município?",
+      "opcoes": [
+        "Tecidos e malhas",
+        "Gesso e caulim",
+        "Ferro-gusa",
+        "Papel e celulose"
+      ],
+      "respostaCorreta": "Ferro-gusa"
+    }
+  ]
+}

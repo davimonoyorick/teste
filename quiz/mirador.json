@@ -1,0 +1,86 @@
+{
+  "nome": "Mirador",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o nome original do povoado que deu origem ao município de Mirador?",
+      "opcoes": [
+        "Porto da Chapada",
+        "Arraial do Príncipe Regente",
+        "Arraial de São Pedro",
+        "Vila Nova"
+      ],
+      "respostaCorreta": "Arraial do Príncipe Regente"
+    },
+    {
+      "pergunta": "O nome 'Mirador' se tornou o oficial após a mudança da sede da vila de qual outro município?",
+      "opcoes": [
+        "Pastos Bons",
+        "Barra do Corda",
+        "Grajaú",
+        "Colinas"
+      ],
+      "respostaCorreta": "Pastos Bons"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica do setor primário que se destaca na história de Mirador?",
+      "opcoes": [
+        "Pesca artesanal",
+        "Pecuária e agricultura de cana-de-açúcar e algodão",
+        "Extração de minério",
+        "Cultivo da soja"
+      ],
+      "respostaCorreta": "Pecuária e agricultura de cana-de-açúcar e algodão"
+    },
+    {
+      "pergunta": "Qual rio importante do Maranhão, com sua nascente localizada no município, é vital para a região?",
+      "opcoes": [
+        "Rio Mearim",
+        "Rio Parnaíba",
+        "Rio Itapecuru",
+        "Rio Grajaú"
+      ],
+      "respostaCorreta": "Rio Itapecuru"
+    },
+    {
+      "pergunta": "A maior unidade de conservação de proteção integral do estado, que abrange cerca de 60% do município, é o Parque Estadual do...",
+      "opcoes": [
+        "Delta do Parnaíba",
+        "Mirador",
+        "Lençóis Maranhenses",
+        "Floresta dos Guarás"
+      ],
+      "respostaCorreta": "Mirador"
+    },
+    {
+      "pergunta": "Qual é o santo padroeiro de Mirador?",
+      "opcoes": [
+        "São José",
+        "Santo Antônio",
+        "Nossa Senhora da Piedade",
+        "Nossa Senhora da Conceição"
+      ],
+      "respostaCorreta": "São José"
+    },
+    {
+      "pergunta": "Além dos rios, qual é um dos principais pontos turísticos naturais de Mirador?",
+      "opcoes": [
+        "A Praça do Cajueiro",
+        "A Cachoeira do Canto",
+        "A Ilha do Amor",
+        "O Morro do Machado"
+      ],
+      "respostaCorreta": "A Cachoeira do Canto"
+    },
+    {
+      "pergunta": "A cultura do município é marcada por qual tipo de produção industrial, que se destaca na economia local?",
+      "opcoes": [
+        "Carvão vegetal",
+        "Arroz",
+        "Ferro-gusa",
+        "Cerâmica"
+      ],
+      "respostaCorreta": "Carvão vegetal"
+    }
+  ]
+}
