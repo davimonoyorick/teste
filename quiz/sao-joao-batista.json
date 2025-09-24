@@ -1,86 +1,56 @@
 {
-  "nome": "São Francisco do Maranhão",
+  "nome": "São João Batista",
   "imagens": [],
   "perguntas": [
     {
-      "pergunta": "Qual é a origem do nome da cidade de São Francisco do Maranhão?",
+      "pergunta": "Qual foi o primeiro nome do povoado que deu origem à cidade de São João Batista?",
       "opcoes": [
-        "Uma homenagem a um antigo explorador",
-        "Uma referência a um rio local",
-        "Uma homenagem a São Francisco de Assis",
-        "Uma homenagem a um líder político"
+        "Vila Nova",
+        "Ponta",
+        "Povoado do Rio",
+        "Vila Ibipeuara"
       ],
-      "respostaCorreta": "Uma homenagem a São Francisco de Assis"
+      "respostaCorreta": "Ponta"
     },
     {
-      "pergunta": "Qual foi o primeiro nome do povoado que deu origem à cidade?",
+      "pergunta": "De qual município São João Batista se desmembrou para ser elevado à categoria de município?",
       "opcoes": [
-        "Porto do Cariri",
-        "Sambaíba",
-        "Canoeiros",
-        "Vila do Rio Grande"
+        "São Vicente Férrer",
+        "Olinda Nova do Maranhão",
+        "Viana",
+        "Pinheiro"
       ],
-      "respostaCorreta": "Porto do Cariri"
+      "respostaCorreta": "São Vicente Férrer"
     },
     {
-      "pergunta": "De qual município São Francisco do Maranhão se desmembrou para ser elevado à categoria de município?",
+      "pergunta": "Qual é a principal atividade econômica de São João Batista, responsável pela maior parte do seu valor adicionado?",
       "opcoes": [
-        "Barão de Grajaú",
-        "Caxias",
-        "Pastos Bons",
-        "Teresina"
+        "Agricultura",
+        "Indústria",
+        "Administração pública",
+        "Pecuária"
       ],
-      "respostaCorreta": "Barão de Grajaú"
+      "respostaCorreta": "Administração pública"
     },
     {
-      "pergunta": "Qual rio importante do Brasil e do Maranhão delimita a fronteira do município, separando-o de um estado vizinho?",
+      "pergunta": "O nome do município é uma homenagem a qual santo?",
       "opcoes": [
-        "Rio Itapecuru",
-        "Rio Tocantins",
-        "Rio Parnaíba",
-        "Rio Mearim"
+        "São José",
+        "Santo Antônio",
+        "São João Batista",
+        "São Pedro"
       ],
-      "respostaCorreta": "Rio Parnaíba"
+      "respostaCorreta": "São João Batista"
     },
     {
-      "pergunta": "Qual é a principal atividade econômica de São Francisco do Maranhão?",
+      "pergunta": "O território de São João Batista está inteiramente inserido em qual bioma?",
       "opcoes": [
-        "Extração de minério",
-        "Turismo",
-        "Pecuária e agricultura de subsistência",
-        "Indústria de carvão"
-      ],
-      "respostaCorreta": "Pecuária e agricultura de subsistência"
-    },
-    {
-      "pergunta": "Qual é o bioma predominante no território de São Francisco do Maranhão?",
-      "opcoes": [
-        "Floresta Amazônica",
-        "Mata Atlântica",
         "Cerrado",
-        "Caatinga"
+        "Mata Atlântica",
+        "Caatinga",
+        "Floresta Amazônica"
       ],
-      "respostaCorreta": "Cerrado"
-    },
-    {
-      "pergunta": "A cidade é um ponto estratégico na rota de um famoso caminho turístico e religioso. Qual é o nome dessa rota?",
-      "opcoes": [
-        "Caminho do Sertão",
-        "Caminhos do Velho Monge",
-        "Rota das Emoções",
-        "Caminho da Fé"
-      ],
-      "respostaCorreta": "Caminhos do Velho Monge"
-    },
-    {
-      "pergunta": "Qual é a festa religiosa mais importante do município, celebrada em homenagem ao seu padroeiro?",
-      "opcoes": [
-        "Festa de Santo Antônio",
-        "Festa de Nossa Senhora da Conceição",
-        "Festa de São Francisco de Assis",
-        "Festa de São José"
-      ],
-      "respostaCorreta": "Festa de São Francisco de Assis"
+      "respostaCorreta": "Floresta Amazônica"
     }
   ]
 }
