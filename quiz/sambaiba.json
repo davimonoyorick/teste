@@ -1,6 +1,8 @@
 {
   "nome": "Sambaíba",
-  "imagens": [],
+  "imagens": [
+    "SAMBAIBA.jpg"
+  ],
   "perguntas": [
     {
       "pergunta": "Em que ano a cidade de Sambaíba foi elevada à categoria de município?",

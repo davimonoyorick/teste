@@ -1,6 +1,8 @@
 {
   "nome": "Santa Rita",
-  "imagens": [],
+  "imagens": [
+    "SANTA RITA.jpeg"
+  ],
   "perguntas": [
     {
       "pergunta": "De qual município Santa Rita se desmembrou para ser elevado à categoria de município?",

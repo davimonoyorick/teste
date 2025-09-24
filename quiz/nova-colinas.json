@@ -1,6 +1,8 @@
 {
   "nome": "Nova Colinas",
-  "imagens": [],
+  "imagens": [
+    "NOVA COLINAS.jpeg"
+  ],
   "perguntas": [
     {
       "pergunta": "O município de Nova Colinas foi criado em 1994, desmembrado de qual outro município?",

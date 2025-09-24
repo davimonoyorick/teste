@@ -1,6 +1,8 @@
 {
   "nome": "Lago da Pedra",
-  "imagens": [],
+  "imagens": [
+    "LAGO DA PEDRA.jpg"
+  ],
   "perguntas": [
     {
       "pergunta": "Em que ano a história de Lago da Pedra teve início com a chegada dos primeiros moradores?",

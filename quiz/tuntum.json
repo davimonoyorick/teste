@@ -1,6 +1,8 @@
 {
   "nome": "Tuntum",
-  "imagens": [],
+  "imagens": [
+    "TUNTUM.jpg"
+  ],
   "perguntas": [
     {
       "pergunta": "Qual é a origem do nome da cidade de Tuntum?",
