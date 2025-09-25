@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
       quizOpcoes.classList.remove("respondido");
       quizImagem.style.display = "none";
 
-      quizCityName.textContent = `Quiz: ${dadosCidade.nome}`;
+      quizCityName.textContent = `${dadosCidade.nome}`;
       const perguntas = dadosCidade.perguntas;
       perguntaAtual = perguntas[Math.floor(Math.random() * perguntas.length)];
 

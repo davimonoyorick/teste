@@ -1,6 +1,9 @@
 {
   "nome": "Paulino Neves",
-  "imagens": [],
+  "imagens": [
+    "PAULINO  NEVES.jpg",
+    "PAULINO NEVES02.jpg"
+  ],
   "perguntas": [
     {
       "pergunta": "O nome da cidade de Paulino Neves é uma homenagem a qual figura histórica do Maranhão?",

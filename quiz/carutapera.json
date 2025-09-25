@@ -1,55 +1,107 @@
 {
   "nome": "Carutapera",
-  "imagens": [],
+  "imagens": [
+    "CARUTAPERA.jpg"
+  ],
   "perguntas": [
     {
       "pergunta": "Qual é a população de Carutapera segundo o Censo IBGE de 2022?",
-      "opcoes": ["20.000", "22.500", "24.238", "26.000"],
+      "opcoes": [
+        "20.000",
+        "22.500",
+        "24.238",
+        "26.000"
+      ],
       "respostaCorreta": "24.238"
     },
     {
       "pergunta": "Qual é o nome do gentílico de Carutapera?",
-      "opcoes": ["Caruterense", "Carutaperano", "Carutaperense", "Carutapense"],
+      "opcoes": [
+        "Caruterense",
+        "Carutaperano",
+        "Carutaperense",
+        "Carutapense"
+      ],
       "respostaCorreta": "Carutaperense"
     },
     {
       "pergunta": "Em que data se comemora o aniversário de emancipação política de Carutapera?",
-      "opcoes": ["3 de junho", "15 de agosto", "10 de outubro", "1º de janeiro"],
+      "opcoes": [
+        "3 de junho",
+        "15 de agosto",
+        "10 de outubro",
+        "1º de janeiro"
+      ],
       "respostaCorreta": "3 de junho"
     },
     {
       "pergunta": "Quem é o prefeito de Carutapera atualmente (dados recentes)?",
-      "opcoes": ["Airton Marques Silva", "Amin Quemel", "José de Souza", "Carlos Alberto"],
+      "opcoes": [
+        "Airton Marques Silva",
+        "Amin Quemel",
+        "José de Souza",
+        "Carlos Alberto"
+      ],
       "respostaCorreta": "Amin Quemel"
     },
     {
       "pergunta": "Qual imponente construção religiosa em Carutapera foi elevada a Basílica Menor?",
-      "opcoes": ["Igreja Matriz de Nossa Senhora", "Basílica São Sebastião", "Igreja de Nossa Senhora da Conceição", "Capela de São João"],
+      "opcoes": [
+        "Igreja Matriz de Nossa Senhora",
+        "Basílica São Sebastião",
+        "Igreja de Nossa Senhora da Conceição",
+        "Capela de São João"
+      ],
       "respostaCorreta": "Basílica São Sebastião"
     },
     {
       "pergunta": "Qual a área territorial aproximada de Carutapera (em km²)?",
-      "opcoes": ["1.200 km²", "1.260 km²", "1.300 km²", "1.100 km²"],
+      "opcoes": [
+        "1.200 km²",
+        "1.260 km²",
+        "1.300 km²",
+        "1.100 km²"
+      ],
       "respostaCorreta": "1.260 km²"
     },
     {
       "pergunta": "Carutapera foi fundada em qual ano, segundo registros históricos?",
-      "opcoes": ["1861", "1886", "1935", "1961"],
+      "opcoes": [
+        "1861",
+        "1886",
+        "1935",
+        "1961"
+      ],
       "respostaCorreta": "1861"
     },
     {
       "pergunta": "Qual significado do nome Carutapera em língua indígena (tupi)?",
-      "opcoes": ["Caminho das Águas", "Povoação abandonada", "Terra dos ventos", "Flor da praia"],
+      "opcoes": [
+        "Caminho das Águas",
+        "Povoação abandonada",
+        "Terra dos ventos",
+        "Flor da praia"
+      ],
       "respostaCorreta": "Povoação abandonada"
     },
     {
       "pergunta": "Carutapera fica em qual parte do estado do Maranhão?",
-      "opcoes": ["Centro do estado", "Extremo norte litoral", "Sudoeste", "Região metropolitana de São Luís"],
+      "opcoes": [
+        "Centro do estado",
+        "Extremo norte litoral",
+        "Sudoeste",
+        "Região metropolitana de São Luís"
+      ],
       "respostaCorreta": "Extremo norte litoral"
     },
     {
       "pergunta": "Qual unidade de conservação se localiza entre Carutapera e Luís Domingues?",
-      "opcoes": ["Parque Nacional dos Lençóis Maranhenses", "Reserva Extrativista de Arapiranga-Tromaí", "Área de Proteção Ambiental da Chapada das Mesas", "Estação Ecológica do Gurupi"],
+      "opcoes": [
+        "Parque Nacional dos Lençóis Maranhenses",
+        "Reserva Extrativista de Arapiranga-Tromaí",
+        "Área de Proteção Ambiental da Chapada das Mesas",
+        "Estação Ecológica do Gurupi"
+      ],
       "respostaCorreta": "Reserva Extrativista de Arapiranga-Tromaí"
     }
   ]

@@ -1,6 +1,8 @@
 {
   "nome": "Morros",
-  "imagens": [],
+  "imagens": [
+    "morros.jpeg"
+  ],
   "perguntas": [
     {
       "pergunta": "Qual é a origem do nome 'Morros'?",

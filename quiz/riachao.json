@@ -1,0 +1,86 @@
+{
+  "nome": "Riachão",
+  "imagens": [],
+  "perguntas": [
+    {
+      "pergunta": "Qual é o bioma predominante no território de Riachão?",
+      "opcoes": [
+        "Mata Atlântica",
+        "Cerrado e Floresta Amazônica",
+        "Pampas",
+        "Caatinga"
+      ],
+      "respostaCorreta": "Cerrado e Floresta Amazônica"
+    },
+    {
+      "pergunta": "De qual município Riachão se desmembrou para ser elevado à categoria de vila?",
+      "opcoes": [
+        "Pastos Bons",
+        "Balsas",
+        "Carolina",
+        "Fortaleza dos Nogueiras"
+      ],
+      "respostaCorreta": "Carolina"
+    },
+    {
+      "pergunta": "Em qual ano a cidade de Riachão comemora seu aniversário, celebrando sua elevação à categoria de vila?",
+      "opcoes": [
+        "1808",
+        "1833",
+        "1835",
+        "1948"
+      ],
+      "respostaCorreta": "1835"
+    },
+    {
+      "pergunta": "Qual dos rios tem suas nascentes na região de Riachão, sendo um de seus principais recursos naturais?",
+      "opcoes": [
+        "Rio Parnaíba",
+        "Rio Mearim",
+        "Rio Tocantins",
+        "Rio Corda"
+      ],
+      "respostaCorreta": "Rio Corda"
+    },
+    {
+      "pergunta": "Qual é a principal atividade econômica de Riachão, que impulsionou o seu desenvolvimento?",
+      "opcoes": [
+        "Extração de minério",
+        "Pecuária e agricultura de grãos",
+        "Turismo",
+        "Pesca e extrativismo"
+      ],
+      "respostaCorreta": "Pecuária e agricultura de grãos"
+    },
+    {
+      "pergunta": "Qual é o principal atrativo turístico de Riachão, que atrai visitantes para a região?",
+      "opcoes": [
+        "Praia do Araçagi",
+        "Complexo Poço Azul e Encanto Azul",
+        "Cachoeira do Boi Morto",
+        "Serra do Penitente"
+      ],
+      "respostaCorreta": "Complexo Poço Azul e Encanto Azul"
+    },
+    {
+      "pergunta": "Quem foi o fundador do povoado de Riachão, vindo de Pastos Bons em 1808?",
+      "opcoes": [
+        "Manoel Rodrigues de Melo Uchoa",
+        "João do Vale",
+        "Elias Ferreira Barros",
+        "Raimundo Nina Rodrigues"
+      ],
+      "respostaCorreta": "Elias Ferreira Barros"
+    },
+    {
+      "pergunta": "Além da agricultura, qual produto é um destaque de exportação de Riachão?",
+      "opcoes": [
+        "Café",
+        "Soja",
+        "Farinha de babaçu",
+        "Farinha de mandioca"
+      ],
+      "respostaCorreta": "Farinha de babaçu"
+    }
+  ]
+}

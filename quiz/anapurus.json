@@ -1,56 +1,107 @@
 {
   "nome": "Anapurus",
-      "imagens" : [
+  "imagens": [
+    "ANAPURUS.jpg"
   ],
   "perguntas": [
     {
       "pergunta": "Anapurus foi desmembrada e emancipada de qual município em 1964?",
-      "opcoes": ["Chapadinha", "Brejo", "São Luís", "Teresina"],
+      "opcoes": [
+        "Chapadinha",
+        "Brejo",
+        "São Luís",
+        "Teresina"
+      ],
       "respostaCorreta": "Brejo"
     },
     {
       "pergunta": "Qual é a origem do nome 'Anapurus'?",
-      "opcoes": ["Um animal da fauna local", "O nome de um explorador português", "Um grupo indígena que habitava a região", "Um tipo de fruta nativa"],
+      "opcoes": [
+        "Um animal da fauna local",
+        "O nome de um explorador português",
+        "Um grupo indígena que habitava a região",
+        "Um tipo de fruta nativa"
+      ],
       "respostaCorreta": "Um grupo indígena que habitava a região"
     },
     {
       "pergunta": "O nome 'Anapurus' é uma corruptela de 'Muypurás'. Qual é o significado original do termo 'Muypurás'?",
-      "opcoes": ["Sol quente", "Rio grande", "Terra fértil", "Fruta do rio"],
+      "opcoes": [
+        "Sol quente",
+        "Rio grande",
+        "Terra fértil",
+        "Fruta do rio"
+      ],
       "respostaCorreta": "Fruta do rio"
     },
     {
       "pergunta": "A cidade de Anapurus está localizada em qual Mesorregião do estado do Maranhão?",
-      "opcoes": ["Norte Maranhense", "Oeste Maranhense", "Leste Maranhense", "Sul Maranhense"],
+      "opcoes": [
+        "Norte Maranhense",
+        "Oeste Maranhense",
+        "Leste Maranhense",
+        "Sul Maranhense"
+      ],
       "respostaCorreta": "Leste Maranhense"
     },
     {
       "pergunta": "Qual família é creditada por ter iniciado o povoamento que deu origem à cidade, no século XIX?",
-      "opcoes": ["Família Silva", "Família Pereira", "Família Oliveira", "Família Monteles"],
+      "opcoes": [
+        "Família Silva",
+        "Família Pereira",
+        "Família Oliveira",
+        "Família Monteles"
+      ],
       "respostaCorreta": "Família Monteles"
     },
     {
       "pergunta": "Qual a principal característica do relevo da área do município de Anapurus?",
-      "opcoes": ["Área montanhosa com picos elevados", "Planície de inundação com rios de grande volume", "Relevo plano e suavemente ondulado", "Área de falésias e penhascos"],
+      "opcoes": [
+        "Área montanhosa com picos elevados",
+        "Planície de inundação com rios de grande volume",
+        "Relevo plano e suavemente ondulado",
+        "Área de falésias e penhascos"
+      ],
       "respostaCorreta": "Relevo plano e suavemente ondulado"
     },
     {
       "pergunta": "Antes de ser nomeada Anapurus, qual era o nome da antiga vila que deu origem ao município?",
-      "opcoes": ["Vila da Estrela", "Vila da Montanha", "Vila do Riacho", "Vila Nova"],
+      "opcoes": [
+        "Vila da Estrela",
+        "Vila da Montanha",
+        "Vila do Riacho",
+        "Vila Nova"
+      ],
       "respostaCorreta": "Vila da Estrela"
     },
     {
       "pergunta": "Qual é a principal atividade econômica de Anapurus?",
-      "opcoes": ["Indústria de calçados", "Agricultura familiar", "Comércio de produtos eletrônicos", "Turismo ecológico"],
+      "opcoes": [
+        "Indústria de calçados",
+        "Agricultura familiar",
+        "Comércio de produtos eletrônicos",
+        "Turismo ecológico"
+      ],
       "respostaCorreta": "Agricultura familiar"
     },
     {
       "pergunta": "A área de Anapurus está na bacia de qual importante rio, que tem grande influência na região?",
-      "opcoes": ["Rio Pindaré", "Rio Itapecuru", "Rio Munim", "Rio Parnaíba"],
+      "opcoes": [
+        "Rio Pindaré",
+        "Rio Itapecuru",
+        "Rio Munim",
+        "Rio Parnaíba"
+      ],
       "respostaCorreta": "Rio Itapecuru"
     },
     {
       "pergunta": "Qual é a distância aproximada, em quilômetros, entre Anapurus e a capital do estado, São Luís?",
-      "opcoes": ["150 km", "280 km", "400 km", "550 km"],
+      "opcoes": [
+        "150 km",
+        "280 km",
+        "400 km",
+        "550 km"
+      ],
       "respostaCorreta": "280 km"
     }
   ]

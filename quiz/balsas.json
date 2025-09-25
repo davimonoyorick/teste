@@ -1,31 +1,62 @@
 {
   "nome": "Balsas",
-      "imagens" : [
+  "imagens": [
+    "balsas.jpg"
   ],
   "perguntas": [
     {
       "pergunta": "Qual foi o nome dado pelo mercador Antônio Ferreira Jacobina ao primeiro núcleo de população de Balsas?",
-      "opcoes": ["Santo Antônio", "Passagem dos Caraíbas", "Vila Nova", "Jacobina", "Riachão"],
+      "opcoes": [
+        "Santo Antônio",
+        "Passagem dos Caraíbas",
+        "Vila Nova",
+        "Jacobina",
+        "Riachão"
+      ],
       "respostaCorreta": "Vila Nova"
     },
     {
       "pergunta": "Em qual ano a povoação de Vila Nova foi renomeada para 'Santo Antônio de Balsas'?",
-      "opcoes": ["1882", "1892", "1918", "1943", "1960"],
+      "opcoes": [
+        "1882",
+        "1892",
+        "1918",
+        "1943",
+        "1960"
+      ],
       "respostaCorreta": "1882"
     },
     {
       "pergunta": "O nome da cidade de Balsas tem origem em qual elemento de transporte local?",
-      "opcoes": ["Canoas", "Carroças", "Navios", "Balsas de buriti", "Barcos a vapor"],
+      "opcoes": [
+        "Canoas",
+        "Carroças",
+        "Navios",
+        "Balsas de buriti",
+        "Barcos a vapor"
+      ],
       "respostaCorreta": "Balsas de buriti"
     },
     {
       "pergunta": "Qual das seguintes famílias era proprietária de grandes fazendas na região antes da formação do povoado?",
-      "opcoes": ["Família Jacobina", "Família Santos", "Família Alencar", "Família Almeida", "Família Coelho"],
+      "opcoes": [
+        "Família Jacobina",
+        "Família Santos",
+        "Família Alencar",
+        "Família Almeida",
+        "Família Coelho"
+      ],
       "respostaCorreta": "Família Coelho"
     },
     {
       "pergunta": "Em que ano o nome do município foi simplificado de 'Santo Antônio de Balsas' para apenas 'BALSAS'?",
-      "opcoes": ["1892", "1918", "1933", "1943", "1960"],
+      "opcoes": [
+        "1892",
+        "1918",
+        "1933",
+        "1943",
+        "1960"
+      ],
       "respostaCorreta": "1943"
     }
   ]
