@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Lista de municípios a processar
-const municipios = ["balsas","carutapera","morros","paulino-neves","sao-jose-dos-basilios","sao-luis-gonzaga-do-maranhao","sao-raimundo-das-mangabeiras","anapurus","colinas","imperatriz" ];
+const municipios = ["riachao","carolina"];;
 
 municipios.forEach(municipio => {
   const pastaImagens = path.join(__dirname, "imagens", municipio);
