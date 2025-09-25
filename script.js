@@ -26,14 +26,15 @@ document.addEventListener("DOMContentLoaded", function () {
   let cidadeIdAtual = null;
   let nomeCidadeAtual = null;
 
+  // --- POSIÇÃO INICIAL DO CAMINHÃO ---
+  caminhao.style.transform = `translate(${window.innerWidth * 0.45}px, ${window.innerHeight * 0.20}px)`;
+
   // --- LÓGICA DO JOGO ---
 
-  // Evento para o botão 'Iniciar Jogo' do menu inicial
-  startGameBtn.addEventListener('click', function() {
-    startMenu.classList.add('hidden');
+  startGameBtn.addEventListener("click", function () {
+    startMenu.classList.add("hidden");
   });
 
-  // Carrega o arquivo SVG do mapa e inicializa os eventos
   const mapContainer = document.getElementById("map-container");
   fetch("components/map.svg")
     .then((response) => response.text())
@@ -45,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Erro ao carregar SVG:", error));
 
-  // Adiciona os listeners de clique e hover no mapa
   function inicializarEventos() {
     if (!mapaSVG) return;
 
@@ -54,8 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
       if (elementoClicado) {
         const cidadeId = elementoClicado.id;
         if (cidadeId) {
-          caminhao.style.left = event.clientX + "px";
-          caminhao.style.top = event.clientY + "px";
+          // --- Centraliza o caminhão no clique ---
+          const offsetX = caminhao.offsetWidth / 2;
+          const offsetY = caminhao.offsetHeight / 2;
+
+          caminhao.style.transform = `translate(${event.clientX - offsetX}px, ${event.clientY - offsetY}px)`;
+
           cidadeDeDestino = elementoClicado;
         }
       }
@@ -68,7 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Inicia o quiz para a cidade de destino
   async function iniciarQuiz(caminhoDoSVG) {
     const cidadeId = caminhoDoSVG.id;
     cidadeIdAtual = cidadeId;
@@ -81,7 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const dadosCidade = await response.json();
       nomeCidadeAtual = dadosCidade.nome;
 
-      // Reseta e exibe o modal
       quizOverlay.style.display = "flex";
       quizPergunta.style.display = "block";
       quizOpcoes.style.display = "block";
@@ -91,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       quizOpcoes.classList.remove("respondido");
       quizImagem.style.display = "none";
 
-      quizCityName.textContent = `${dadosCidade.nome}`;
+      quizCityName.textContent = ` ${dadosCidade.nome}`;
       const perguntas = dadosCidade.perguntas;
       perguntaAtual = perguntas[Math.floor(Math.random() * perguntas.length)];
 
@@ -104,7 +106,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Monta a pergunta e as opções na tela
   function exibirPergunta() {
     quizPergunta.textContent = perguntaAtual.pergunta;
     quizOpcoes.innerHTML = "";
@@ -117,7 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Verifica se a resposta do usuário está correta
   function verificarResposta(event) {
     if (quizOpcoes.classList.contains("respondido")) return;
 
@@ -127,21 +127,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const escolha = event.target.textContent;
     const acertou = escolha === perguntaAtual.respostaCorreta;
 
-    // Feedback visual
-/*     if (acertou) {
-      quizFeedback.textContent = "✅ Resposta Correta!";
-      quizFeedback.className = "feedback-correto";
-    } else {
-      quizFeedback.textContent = `❌ Incorreto! A certa é: ${perguntaAtual.respostaCorreta}`;
-      quizFeedback.className = "feedback-incorreto";
-    } */
-
     quizOpcoes.querySelectorAll("li").forEach((li) => {
-      if (li.textContent === perguntaAtual.respostaCorreta) li.classList.add("correta");
-      else if (li.textContent === escolha) li.classList.add("incorreta-escolhida");
+      if (li.textContent === perguntaAtual.respostaCorreta)
+        li.classList.add("correta");
+      else if (li.textContent === escolha)
+        li.classList.add("incorreta-escolhida");
     });
 
-    // Se acertou, mostra a imagem de recompensa
     if (acertou) {
       setTimeout(() => {
         const cidadeIdAtual = obterCidadeIdAtual();
@@ -159,48 +151,42 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Pré-carrega a imagem para evitar "piscar"
-function atualizarImagemCidade(cidadeId, onImageLoaded) {
-  fetch(`quiz/${cidadeId}.json`)
-    .then((response) => response.json())
-    .then((dadosCidade) => {
-      if (dadosCidade.imagens && dadosCidade.imagens.length > 0) {
-        // Pega uma imagem aleatória
-        const indiceImagem = Math.floor(Math.random() * dadosCidade.imagens.length);
-        let caminhoImagem = dadosCidade.imagens[indiceImagem];
+  function atualizarImagemCidade(cidadeId, onImageLoaded) {
+    fetch(`quiz/${cidadeId}.json`)
+      .then((response) => response.json())
+      .then((dadosCidade) => {
+        if (dadosCidade.imagens && dadosCidade.imagens.length > 0) {
+          const indiceImagem = Math.floor(
+            Math.random() * dadosCidade.imagens.length
+          );
+          let caminhoImagem = dadosCidade.imagens[indiceImagem];
 
-        // Se o caminho da imagem não tiver "imagens/", adiciona a pasta automaticamente
-        if (!caminhoImagem.startsWith("imagens/")) {
-          caminhoImagem = `imagens/${cidadeId}/${caminhoImagem}`;
-        }
+          if (!caminhoImagem.startsWith("imagens/")) {
+            caminhoImagem = `imagens/${cidadeId}/${caminhoImagem}`;
+          }
 
-        quizImgTag.alt = `Imagem de destaque - ${dadosCidade.nome}`;
+          quizImgTag.alt = `Imagem de destaque - ${dadosCidade.nome}`;
 
-        // Mostra a imagem só quando carregar
-        quizImgTag.onload = () => onImageLoaded();
-        quizImgTag.onerror = () => {
-          console.error("Erro ao carregar a imagem:", caminhoImagem);
+          quizImgTag.onload = () => onImageLoaded();
+          quizImgTag.onerror = () => {
+            console.error("Erro ao carregar a imagem:", caminhoImagem);
+            quizImagem.style.display = "none";
+          };
+          quizImgTag.src = caminhoImagem;
+        } else {
           quizImagem.style.display = "none";
-        };
-        quizImgTag.src = caminhoImagem;
-      } else {
-        // Nenhuma imagem no JSON
+        }
+      })
+      .catch((error) => {
+        console.error("Erro ao carregar dados da cidade:", error);
         quizImagem.style.display = "none";
-      }
-    })
-    .catch((error) => {
-      console.error("Erro ao carregar dados da cidade:", error);
-      quizImagem.style.display = "none";
-    });
-}
+      });
+  }
 
-
-  // --- FUNÇÃO MODIFICADA ---
-  // Fecha o modal do quiz e retorna ao menu inicial
   function fecharQuiz() {
-    quizOverlay.style.display = "none"; // Esconde o modal do quiz
-    startMenu.classList.remove('hidden'); // Mostra o menu inicial novamente
-    
+    quizOverlay.style.display = "none";
+    startMenu.classList.remove("hidden");
+
     quizAtivo = false;
     travelBarContainer.style.display = "none";
     mapaSVG.style.pointerEvents = "auto";
@@ -208,13 +194,12 @@ function atualizarImagemCidade(cidadeId, onImageLoaded) {
 
   quizCloseBtn.addEventListener("click", fecharQuiz);
 
-  // --- FUNÇÃO MODIFICADA ---
-  // Inicia e controla a barra de tempo com cores dinâmicas
   function startQuizTimer() {
     quizAtivo = true;
     travelBarContainer.style.display = "flex";
     travelBarProgress.style.width = "100%";
-    travelBarTruck.style.left = (travelBarContainer.offsetWidth - travelBarTruck.offsetWidth) + "px";
+    travelBarTruck.style.left =
+      travelBarContainer.offsetWidth - travelBarTruck.offsetWidth + "px";
     const startTime = Date.now();
 
     function animate() {
@@ -224,19 +209,19 @@ function atualizarImagemCidade(cidadeId, onImageLoaded) {
       const remaining = Math.max(quizDuration - elapsed, 0);
       const percent = (remaining / quizDuration) * 100;
 
-      // Lógica para mudar a cor da barra de progresso
       if (percent > 60) {
-        travelBarProgress.style.backgroundColor = '#28a745'; // Verde
+        travelBarProgress.style.backgroundColor = "#28a745";
       } else if (percent > 25) {
-        travelBarProgress.style.backgroundColor = '#ffc107'; // Amarelo
+        travelBarProgress.style.backgroundColor = "#ffc107";
       } else {
-        travelBarProgress.style.backgroundColor = '#dc3545'; // Vermelho
+        travelBarProgress.style.backgroundColor = "#dc3545";
       }
 
       travelBarProgress.style.width = percent + "%";
 
-      const maxWidth = travelBarContainer.offsetWidth - travelBarTruck.offsetWidth;
-      travelBarTruck.style.left = (maxWidth * (remaining / quizDuration)) + "px";
+      const maxWidth =
+        travelBarContainer.offsetWidth - travelBarTruck.offsetWidth;
+      travelBarTruck.style.left = maxWidth * (remaining / quizDuration) + "px";
 
       if (remaining > 0) {
         requestAnimationFrame(animate);
@@ -250,7 +235,6 @@ function atualizarImagemCidade(cidadeId, onImageLoaded) {
     requestAnimationFrame(animate);
   }
 
-  // Espera a animação do caminhão terminar para chamar o quiz
   caminhao.addEventListener("transitionend", function () {
     if (cidadeDeDestino) {
       iniciarQuiz(cidadeDeDestino);
@@ -258,7 +242,6 @@ function atualizarImagemCidade(cidadeId, onImageLoaded) {
     }
   });
 
-  // Função utilitária para obter o ID da cidade atual
   function obterCidadeIdAtual() {
     return cidadeIdAtual;
   }
