@@ -1,9 +1,5 @@
 {
-  "nome": "Colinas",
-  "imagens": [
-    "COLINAS.jpg"
-  ],
-   "perguntas": [
+  "perguntas": [
     {
       "pergunta": "Qual serviço foi oferecido em Santa Luzia para cuidar da saúde da visão?",
       "opcoes": ["Pediatria", "Recreação Infantil", "Serviço Odontológico", "Consulta Oftalmológica"],
@@ -73,6 +69,11 @@
       "pergunta": "Em Anapurus, que serviço médico foi oferecido para atender a população adulta?",
       "opcoes": ["Serviço Vacinação", "Consulta com Clínico Geral", "Recreação Infantil", "Pediatria"],
       "respostaCorreta": "Consulta com Clínico Geral"
+    },
+    {
+      "pergunta": "O município de Balsas é considerado um dos principais polos econômicos do Maranhão, especialmente por sua produção de qual atividade?",
+      "opcoes": ["Turismo cultural", "Agricultura de grãos", "Extração mineral", "Polo automotivo"],
+      "respostaCorreta": "Agricultura de grãos"
     },
     {
       "pergunta": "Qual serviço médico focado na saúde dos pequenos, do nascimento à adolescência, foi oferecido em Pinheiro?",

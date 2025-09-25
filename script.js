@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       quizOpcoes.classList.remove("respondido");
       quizImagem.style.display = "none";
 
-      quizCityName.textContent = ` ${dadosCidade.nome}`;
+      quizCityName.textContent = `Ajude a Unidade Móvel chegar em  ${dadosCidade.nome}`;
       const perguntas = dadosCidade.perguntas;
       perguntaAtual = perguntas[Math.floor(Math.random() * perguntas.length)];
 

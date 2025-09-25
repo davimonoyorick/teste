@@ -1,9 +1,7 @@
 {
-  "nome": "Colinas",
-  "imagens": [
-    "COLINAS.jpg"
-  ],
-   "perguntas": [
+  "nome": "Icatu",
+  "imagens": [],
+  "perguntas": [
     {
       "pergunta": "Qual serviço foi oferecido em Santa Luzia para cuidar da saúde da visão?",
       "opcoes": ["Pediatria", "Recreação Infantil", "Serviço Odontológico", "Consulta Oftalmológica"],

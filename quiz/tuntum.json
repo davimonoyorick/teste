@@ -3,76 +3,136 @@
   "imagens": [
     "TUNTUM.jpg"
   ],
-  "perguntas": [
+   "perguntas": [
     {
-      "pergunta": "Qual é a origem do nome da cidade de Tuntum?",
-      "opcoes": [
-        "O nome de um rio",
-        "Uma onomatopeia do som de um tambor",
-        "Uma homenagem a um líder político",
-        "O nome de uma planta"
-      ],
-      "respostaCorreta": "Uma onomatopeia do som de um tambor"
+      "pergunta": "Qual serviço foi oferecido em Santa Luzia para cuidar da saúde da visão?",
+      "opcoes": ["Pediatria", "Recreação Infantil", "Serviço Odontológico", "Consulta Oftalmológica"],
+      "respostaCorreta": "Consulta Oftalmológica"
     },
     {
-      "pergunta": "De qual município Tuntum se desmembrou para ser elevado à categoria de município?",
-      "opcoes": [
-        "Presidente Dutra",
-        "Barra do Corda",
-        "Caxias",
-        "Grajaú"
-      ],
-      "respostaCorreta": "Barra do Corda"
+      "pergunta": "Qual cidade histórica do Maranhão o SESI Itinerante desembarcou em 2023?",
+      "opcoes": ["Grajaú", "Bequimão", "Rosário", "Alcântara"],
+      "respostaCorreta": "Alcântara"
     },
     {
-      "pergunta": "Em qual ano Tuntum foi criado como município?",
-      "opcoes": [
-        "1945",
-        "1952",
-        "1961",
-        "1988"
-      ],
-      "respostaCorreta": "1952"
+      "pergunta": "O SESI Itinerante passou por Rosário e levou serviço que garante a diversão e o aprendizado das crianças. Qual foi ele?",
+      "opcoes": ["Consulta com Clínico Geral", "Serviço Odontológico", "Recreação Infantil", "Pediatria"],
+      "respostaCorreta": "Recreação Infantil"
     },
     {
-      "pergunta": "Qual é a principal atividade econômica de Tuntum?",
-      "opcoes": [
-        "Extração de gás natural",
-        "Pecuária e agricultura",
-        "Pesca artesanal",
-        "Produção de farinha"
-      ],
-      "respostaCorreta": "Pecuária e agricultura"
+      "pergunta": "Em Cedral, a população teve acesso a um tipo de atendimento médico geral para tratar diversas questões de saúde. Qual foi o serviço?",
+      "opcoes": ["Recreação Infantil", "Serviço Odontológico", "Pediatria", "Consulta com Clínico Geral"],
+      "respostaCorreta": "Consulta com Clínico Geral"
     },
     {
-      "pergunta": "Qual rio importante do Maranhão banha o município, sendo um de seus principais recursos hídricos?",
-      "opcoes": [
-        "Rio Mearim",
-        "Rio Itapecuru",
-        "Rio Balsas",
-        "Rio Flores"
-      ],
-      "respostaCorreta": "Rio Flores"
+      "pergunta": "Em São Luís, qual comunidade quilombola foi atendida com Projeto Sesi Itinerante?",
+      "opcoes": ["Bairro do Jaracati", "Bairro Vila Embratel", "Bairro da Liberdade", "Bairro Vila Industrial"],
+      "respostaCorreta": "Bairro da Liberdade"
     },
     {
-      "pergunta": "Qual é o bioma predominante no território de Tuntum?",
-      "opcoes": [
-        "Cerrado",
-        "Caatinga",
-        "Mata Atlântica",
-        "Floresta Amazônica"
-      ],
-      "respostaCorreta": "Cerrado"
+      "pergunta": "Para cuidar da saúde bucal da população de Imperatriz, qual serviço foi disponibilizado?",
+      "opcoes": ["Pediatria", "Consulta com Clínico Geral", "Recreação Infantil", "Serviço Odontológico"],
+      "respostaCorreta": "Serviço Odontológico"
     },
     {
-      "pergunta": "Qual das seguintes atividades culturais é um dos destaques de Tuntum, especialmente nas festividades juninas?",
-      "opcoes": [
-        "Festival de Quadrilhas",
-        "Bumba-meu-boi",
-        "Festa do Divino Espírito Santo",
-        "Carnaval de Rua"
-      ],
-      "respostaCorreta": "Bumba-meu-boi"
+      "pergunta": "O município de Barão de Grajaú faz divisa com qual Estado brasileiro?",
+      "opcoes": ["Tocantis", "Pará", "Ceará", "Piauí"],
+      "respostaCorreta": "Piauí"
+    },
+    {
+      "pergunta": "O SESI Itinerante realizou atendimentos na cidade de Morros em 2023. Esse município é reconhecido no Maranhão principalmente por qual característica turística?",
+      "opcoes": ["Suas praias urbanas", "Seus rios e balneários naturais", "Suas serras montanhosas", "Suas arvores e plantas"],
+      "respostaCorreta": "Seus rios e balneários naturais"
+    },
+    {
+      "pergunta": "O SESI Itinerante levou para Açailândia uma atividade lúdica e divertida para as crianças. Qual foi esse serviço?",
+      "opcoes": ["Consulta Oftalmológica", "Recreação Infantil", "Consulta com Clínico Geral", "Serviço Odontológico"],
+      "respostaCorreta": "Recreação Infantil"
+    },
+    {
+      "pergunta": "O SESI Itinerante atendeu qual município da Grande Ilha de São Luís?",
+      "opcoes": ["Raposa", "São José de Ribamar", "Paço do Lumiar", "Rosário"],
+      "respostaCorreta": "Paço do Lumiar"
+    },
+    {
+      "pergunta": "Qual serviço de saúde teve maior público em atendimentos na cidade de Buriticupu?",
+      "opcoes": ["Serviço Odontológico", "Pediatria", "Recreação Infantil", "Consulta com Clínico Geral"],
+      "respostaCorreta": "Consulta com Clínico Geral"
+    },
+    {
+      "pergunta": "Qual fruta é o carro chefe dos bolos de chocolate que a equipe de alimentação prepara e ensina aos participantes?",
+      "opcoes": ["Abacaxi", "Morango", "Mamão", "Banana"],
+      "respostaCorreta": "Banana"
+    },
+    {
+      "pergunta": "Qual nome dos povos indígenas que o Sesi Itinerante atendeu em Grajaú?",
+      "opcoes": ["Povos Krahô", "Povos Caetés", "Povos Guajajara", "Povos Yanomamis"],
+      "respostaCorreta": "Povos Guajajara"
+    },
+    {
+      "pergunta": "Em Anapurus, que serviço médico foi oferecido para atender a população adulta?",
+      "opcoes": ["Serviço Vacinação", "Consulta com Clínico Geral", "Recreação Infantil", "Pediatria"],
+      "respostaCorreta": "Consulta com Clínico Geral"
+    },
+    {
+      "pergunta": "Qual serviço médico focado na saúde dos pequenos, do nascimento à adolescência, foi oferecido em Pinheiro?",
+      "opcoes": ["Clínico Geral", "Pediatria", "Serviço Odontológico", "Consulta Oftalmológica"],
+      "respostaCorreta": "Consulta Oftalmológica"
+    },
+    {
+      "pergunta": "O Sesi Itinerante desembarcou na região dos lençóis maranhenses, qual é rio que banha a cidade de Barreirinhas?",
+      "opcoes": ["Rio Mearim", "Rio Igaraçu", "Rio Preguiças", "Rio Tocantis"],
+      "respostaCorreta": "Rio Preguiças"
+    },
+    {
+      "pergunta": "Em 2025, o SESI Itinerante esteve em Axixá, levando serviços de saúde, lazer e cultura para as famílias. Além disso, o município é conhecido por suas belezas naturais, destacando:",
+      "opcoes": ["Praias e rios tranquilos", "Montanhas e cavernas", "Florestas densas", "Mar intenso"],
+      "respostaCorreta": "Praias e rios tranquilos"
+    },
+    {
+      "pergunta": "Qual nome do nosso palhaço que diverte as crianças no Sesi Itinerante?",
+      "opcoes": ["Palhaço Pingão", "Palhaço Nanica", "Palhaço Abacaxi", "Palhaço Bozo"],
+      "respostaCorreta": "Palhaço Pingão"
+    },
+    {
+      "pergunta": "Em Pastos Bons, qual serviço de saúde bucal foi oferecido?",
+      "opcoes": ["Consulta Oftalmológica", "Recreação Infantil", "Serviço Odontológico", "Pediatria"],
+      "respostaCorreta": "Serviço Odontológico"
+    },
+    {
+      "pergunta": "Qual serviço de atendimento médico geral foi oferecido em São José dos Basílios?",
+      "opcoes": ["Serviço Odontológico", "Urologia", "Consulta com Clínico Geral", "Recreação Infantil"],
+      "respostaCorreta": "Consulta com Clínico Geral"
+    },
+    {
+      "pergunta": "No SESI Itinerante em Santa Helena, foi possível contemplar o imenso rio que banha a cidade. Qual é o nome desse rio?",
+      "opcoes": ["Rio Mearim", "Rio Pindaré", "Rio Turi", "Rio Munim"],
+      "respostaCorreta": "Rio Turi"
+    },
+    {
+      "pergunta": "Em Palmeirândia, a população aprendeu sobre como ter uma vida mais saudável através de qual tipo de oficina?",
+      "opcoes": ["Oficina de Educação Física", "Oficina de Saúde Bucal", "Oficina de Alimentação Saudável", "Oficina de Artesanato"],
+      "respostaCorreta": "Oficina de Alimentação Saudável"
+    },
+    {
+      "pergunta": "Quantas pessoas atendemos no Projeto Sesi Itinerante em Cedral?",
+      "opcoes": ["1.500", "1.800", "1.000", "2.290"],
+      "respostaCorreta": "2.290"
+    },
+    {
+      "pergunta": "O SESI Itinerante desembarcou em Paulino Neves em 2024. O município é conhecido por sua localização estratégica próxima a qual importante destino turístico maranhense?",
+      "opcoes": ["Chapada das Mesas", "Lençóis Maranhenses", "Delta do Parnaíba", "Pequenos Lençóis"],
+      "respostaCorreta": "Lençóis Maranhenses"
+    },
+    {
+      "pergunta": "Qual oficina ensinou a preparar refeições saborosas e nutritivas?",
+      "opcoes": ["Recreação Infantil", "Oficina Educativa de Saúde Bucal", "Oficina Educativa de Saúde da Mulher", "Oficina de Alimentação Saudável"],
+      "respostaCorreta": "Oficina de Alimentação Saudável"
+    },
+    {
+      "pergunta": "O SESI Itinerante passou por Riachão em 2023. O município se destaca no turismo maranhense principalmente por qual atrativo natural?",
+      "opcoes": ["Chapada das Mesas", "Lago de Banabuiú", "Dunas dos Lençóis", "Cachoeiras e lagos"],
+      "respostaCorreta": "Chapada das Mesas"
     }
   ]
 }
