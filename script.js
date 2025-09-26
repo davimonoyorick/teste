@@ -9,28 +9,30 @@ document.addEventListener("DOMContentLoaded", function () {
   const quizOpcoes = document.getElementById("quiz-opcoes");
   const quizFeedback = document.getElementById("quiz-feedback");
   const quizImagem = document.getElementById("quiz-imagem");
-  const quizCloseBtn = document.getElementById("quiz-close-btn");
+  const quizCloseBtn = document = document.getElementById("quiz-close-btn");
   const quizImgTag = document.getElementById("quiz-img");
   const travelBarContainer = document.getElementById("travel-bar-container");
   const travelBarProgress = document.getElementById("travel-bar-progress");
   const travelBarTruck = document.getElementById("travel-bar-truck");
+  const quizDots = document.querySelectorAll(".quiz-dot");
 
   let mapaSVG = null;
   let todosOsCaminhosDeCidade = null;
 
   // --- VARIÁVEIS DE CONTROLE ---
-  const quizDuration = 10;
+  const quizDuration = 30;
   let cidadeDeDestino = null;
-  let perguntaAtual = null;
+  let perguntasDoQuiz = [];
+  let perguntaAtualIndex = 0;
   let quizAtivo = false;
   let cidadeIdAtual = null;
   let nomeCidadeAtual = null;
+  let quizScore = 0;
 
   // --- POSIÇÃO INICIAL DO CAMINHÃO ---
   caminhao.style.transform = `translate(${window.innerWidth * 0.45}px, ${window.innerHeight * 0.20}px)`;
 
   // --- LÓGICA DO JOGO ---
-
   startGameBtn.addEventListener("click", function () {
     startMenu.classList.add("hidden");
   });
@@ -54,12 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (elementoClicado) {
         const cidadeId = elementoClicado.id;
         if (cidadeId) {
-          // --- Centraliza o caminhão no clique ---
           const offsetX = caminhao.offsetWidth / 2;
           const offsetY = caminhao.offsetHeight / 2;
-
           caminhao.style.transform = `translate(${event.clientX - offsetX}px, ${event.clientY - offsetY}px)`;
-
           cidadeDeDestino = elementoClicado;
         }
       }
@@ -84,6 +83,16 @@ document.addEventListener("DOMContentLoaded", function () {
       const dadosCidade = await response.json();
       nomeCidadeAtual = dadosCidade.nome;
 
+      // Embaralha as perguntas e seleciona as 3 primeiras
+      const perguntasEmbaralhadas = dadosCidade.perguntas.sort(() => 0.5 - Math.random());
+      perguntasDoQuiz = perguntasEmbaralhadas.slice(0, 3);
+      perguntaAtualIndex = 0;
+      quizScore = 0;
+      
+      quizDots.forEach(dot => {
+        dot.classList.remove('active', 'correct', 'incorrect');
+      });
+
       quizOverlay.style.display = "flex";
       quizPergunta.style.display = "block";
       quizOpcoes.style.display = "block";
@@ -92,10 +101,8 @@ document.addEventListener("DOMContentLoaded", function () {
       quizFeedback.className = "";
       quizOpcoes.classList.remove("respondido");
       quizImagem.style.display = "none";
-
-      quizCityName.textContent = `Ajude a Unidade Móvel chegar em  ${dadosCidade.nome}`;
-      const perguntas = dadosCidade.perguntas;
-      perguntaAtual = perguntas[Math.floor(Math.random() * perguntas.length)];
+      
+      quizCityName.textContent = `Ajude a Unidade Móvel chegar em ${dadosCidade.nome}`;
 
       exibirPergunta();
       startQuizTimer();
@@ -107,8 +114,23 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function exibirPergunta() {
+    if (perguntaAtualIndex >= perguntasDoQuiz.length) {
+      finalizarQuiz();
+      return;
+    }
+    
+    quizFeedback.textContent = "";
+    quizFeedback.className = "";
+    
+    quizDots.forEach((dot, index) => {
+      dot.classList.remove('active');
+      if (index === perguntaAtualIndex) dot.classList.add('active');
+    });
+    
+    const perguntaAtual = perguntasDoQuiz[perguntaAtualIndex];
     quizPergunta.textContent = perguntaAtual.pergunta;
     quizOpcoes.innerHTML = "";
+    quizOpcoes.classList.remove("respondido");
 
     perguntaAtual.opcoes.forEach((opcao) => {
       const li = document.createElement("li");
@@ -120,34 +142,51 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function verificarResposta(event) {
     if (quizOpcoes.classList.contains("respondido")) return;
-
-    quizAtivo = false;
+    
+    const perguntaAtual = perguntasDoQuiz[perguntaAtualIndex];
     quizOpcoes.classList.add("respondido");
 
     const escolha = event.target.textContent;
     const acertou = escolha === perguntaAtual.respostaCorreta;
+    
+    const currentDot = quizDots[perguntaAtualIndex];
+    currentDot.classList.remove('active');
+    if (acertou) currentDot.classList.add('correct');
+    else currentDot.classList.add('incorrect');
 
     quizOpcoes.querySelectorAll("li").forEach((li) => {
-      if (li.textContent === perguntaAtual.respostaCorreta)
-        li.classList.add("correta");
-      else if (li.textContent === escolha)
-        li.classList.add("incorreta-escolhida");
+      if (li.textContent === perguntaAtual.respostaCorreta) li.classList.add("correta");
+      else if (li.textContent === escolha) li.classList.add("incorreta-escolhida");
     });
 
     if (acertou) {
-      setTimeout(() => {
-        const cidadeIdAtual = obterCidadeIdAtual();
-        if (cidadeIdAtual) {
-          atualizarImagemCidade(cidadeIdAtual, () => {
-            quizCityName.textContent = `Obrigado! A unidade móvel chegou em ${nomeCidadeAtual}`;
-            quizPergunta.style.display = "none";
-            quizOpcoes.style.display = "none";
-            quizFeedback.style.display = "none";
-            travelBarContainer.style.display = "none";
-            quizImagem.style.display = "block";
-          });
-        }
-      }, 3000);
+      quizScore++;
+    }
+
+    setTimeout(() => {
+      perguntaAtualIndex++;
+      exibirPergunta();
+    }, 2000);
+  }
+
+  function finalizarQuiz() {
+    quizAtivo = false;
+    travelBarContainer.style.display = "none";
+    quizPergunta.style.display = "none";
+    quizOpcoes.style.display = "none";
+    
+    if (quizScore >= 2) { 
+      quizFeedback.textContent = `🎉 Parabéns! Você acertou ${quizScore} de 3 perguntas.`;
+      quizFeedback.className = "feedback-correto";
+      
+      atualizarImagemCidade(cidadeIdAtual, () => {
+        quizCityName.textContent = `Obrigado! A unidade móvel chegou em ${nomeCidadeAtual}`;
+        quizImagem.style.display = "block";
+      });
+
+    } else {
+      quizFeedback.textContent = `😔 Você acertou apenas ${quizScore} de 3 perguntas.`;
+      quizFeedback.className = "feedback-incorreto";
     }
   }
 
@@ -156,9 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((dadosCidade) => {
         if (dadosCidade.imagens && dadosCidade.imagens.length > 0) {
-          const indiceImagem = Math.floor(
-            Math.random() * dadosCidade.imagens.length
-          );
+          const indiceImagem = Math.floor(Math.random() * dadosCidade.imagens.length);
           let caminhoImagem = dadosCidade.imagens[indiceImagem];
 
           if (!caminhoImagem.startsWith("imagens/")) {
@@ -186,7 +223,6 @@ document.addEventListener("DOMContentLoaded", function () {
   function fecharQuiz() {
     quizOverlay.style.display = "none";
     startMenu.classList.remove("hidden");
-
     quizAtivo = false;
     travelBarContainer.style.display = "none";
     mapaSVG.style.pointerEvents = "auto";
@@ -198,38 +234,32 @@ document.addEventListener("DOMContentLoaded", function () {
     quizAtivo = true;
     travelBarContainer.style.display = "flex";
     travelBarProgress.style.width = "100%";
-    travelBarTruck.style.left =
-      travelBarContainer.offsetWidth - travelBarTruck.offsetWidth + "px";
+    travelBarTruck.style.left = travelBarContainer.offsetWidth - travelBarTruck.offsetWidth + "px";
     const startTime = Date.now();
 
     function animate() {
-      if (!quizAtivo) return;
+      if (!quizAtivo || perguntaAtualIndex >= perguntasDoQuiz.length) return;
 
       const elapsed = (Date.now() - startTime) / 1000;
       const remaining = Math.max(quizDuration - elapsed, 0);
       const percent = (remaining / quizDuration) * 100;
 
-      if (percent > 60) {
-        travelBarProgress.style.backgroundColor = "#28a745";
-      } else if (percent > 25) {
-        travelBarProgress.style.backgroundColor = "#ffc107";
-      } else {
-        travelBarProgress.style.backgroundColor = "#dc3545";
-      }
+      if (percent > 60) travelBarProgress.style.backgroundColor = "#28a745";
+      else if (percent > 25) travelBarProgress.style.backgroundColor = "#ffc107";
+      else travelBarProgress.style.backgroundColor = "#dc3545";
 
       travelBarProgress.style.width = percent + "%";
 
-      const maxWidth =
-        travelBarContainer.offsetWidth - travelBarTruck.offsetWidth;
+      const maxWidth = travelBarContainer.offsetWidth - travelBarTruck.offsetWidth;
       travelBarTruck.style.left = maxWidth * (remaining / quizDuration) + "px";
 
-      if (remaining > 0) {
-        requestAnimationFrame(animate);
-      } else {
+      if (remaining > 0) requestAnimationFrame(animate);
+      else {
         quizFeedback.textContent = "⏳ Tempo esgotado!";
         quizFeedback.className = "feedback-incorreto";
         quizOpcoes.classList.add("respondido");
         quizAtivo = false;
+        finalizarQuiz();
       }
     }
     requestAnimationFrame(animate);
@@ -241,8 +271,4 @@ document.addEventListener("DOMContentLoaded", function () {
       cidadeDeDestino = null;
     }
   });
-
-  function obterCidadeIdAtual() {
-    return cidadeIdAtual;
-  }
 });

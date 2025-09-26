@@ -54,7 +54,6 @@ body {
   transition: transform 2s ease-in-out;
 }
 
-
 #logo-jogo {
   position: absolute;
   top: 30px;
@@ -64,7 +63,6 @@ body {
   z-index: 50;
   opacity: 0.9;
 }
-
 
 /* ==========================================================================
    4. MENU INICIAL (FLUTUANTE)
@@ -113,7 +111,7 @@ body {
 }
 
 /* ==========================================================================
-   5. MODAL DO QUIZ (COM DESIGN FLUIDO)
+   5. MODAL DO QUIZ (COM DESIGN FLUIDO E RESPONSIVO)
    ========================================================================== */
 
 #quiz-modal-overlay {
@@ -138,7 +136,12 @@ body {
   max-width: 550px;
   text-align: center;
   box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+  
+  /* Adiciona flexbox para alinhar o conteúdo verticalmente */
+  display: flex;
+  flex-direction: column;
   max-height: 95vh;
+  overflow-y: auto;
 }
 
 #quiz-modal-content h2 {
@@ -146,7 +149,8 @@ body {
   color: white;
   margin: 0;
   padding: clamp(15px, 3vh, 20px);
-  font-size: clamp(1.1rem, 3vw, 1.5rem); 
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  margin-bottom: 20px;
 }
 
 #quiz-modal-content p#quiz-pergunta {
@@ -221,7 +225,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: contain; /* A imagem vai caber, não cobrir */
+  object-fit: contain;
 }
 
 /* ==========================================================================
@@ -300,7 +304,39 @@ button {
 }
 
 /* ==========================================================================
-   8. RESPONSIVIDADE PARA DISPOSITIVOS MÓVEIS
+   8. ESTILOS DO INDICADOR DE PROGRESSO
+   ========================================================================== */
+
+#quiz-progress-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.quiz-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.quiz-dot.active {
+  background-color: #007bff;
+  transform: scale(1.2);
+}
+
+.quiz-dot.correct {
+  background-color: #28a745;
+}
+
+.quiz-dot.incorrect {
+  background-color: #dc3545;
+}
+
+/* ==========================================================================
+   9. RESPONSIVIDADE ADICIONAL PARA TELAS MENORES
    ========================================================================== */
 @media (max-width: 600px) {
   #logo-jogo {
