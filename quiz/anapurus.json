@@ -1,7 +1,7 @@
 {
   "nome": "Anapurus",
   "imagens": [
-    "ANAPURUS.jpg"
+    "anapurus1.jpg"
   ],
   "perguntas": [
     {
@@ -77,7 +77,7 @@
     {
       "pergunta": "Qual serviço médico focado na saúde dos pequenos, do nascimento à adolescência, foi oferecido em Pinheiro?",
       "opcoes": ["Clínico Geral", "Pediatria", "Serviço Odontológico", "Consulta Oftalmológica"],
-      "respostaCorreta": "Consulta Oftalmológica"
+      "respostaCorreta": "Pediatria"
     },
     {
       "pergunta": "O Sesi Itinerante desembarcou na região dos lençóis maranhenses, qual é rio que banha a cidade de Barreirinhas?",
