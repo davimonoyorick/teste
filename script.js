@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const quizOpcoes = document.getElementById("quiz-opcoes");
   const quizFeedback = document.getElementById("quiz-feedback");
   const quizImagem = document.getElementById("quiz-imagem");
-  const quizCloseBtn = document = document.getElementById("quiz-close-btn");
+  const quizCloseBtn = document.getElementById("quiz-close-btn");
   const quizImgTag = document.getElementById("quiz-img");
   const travelBarContainer = document.getElementById("travel-bar-container");
   const travelBarProgress = document.getElementById("travel-bar-progress");
@@ -83,6 +83,24 @@ document.addEventListener("DOMContentLoaded", function () {
       const dadosCidade = await response.json();
       nomeCidadeAtual = dadosCidade.nome;
 
+        // --- PRÉ-CARREGAMENTO DA IMAGEM ---
+        quizImgTag.src = ""; // Limpa a imagem anterior
+        quizImagem.style.display = "none"; // Garante que está escondida no início
+
+        if (dadosCidade.imagens && dadosCidade.imagens.length > 0) {
+            const indiceImagem = Math.floor(Math.random() * dadosCidade.imagens.length);
+            let caminhoImagem = dadosCidade.imagens[indiceImagem];
+
+            if (!caminhoImagem.startsWith("imagens/")) {
+                caminhoImagem = `imagens/${cidadeId}/${caminhoImagem}`;
+            }
+
+            // Define o src. O navegador começa a carregar a imagem em background
+            quizImgTag.src = caminhoImagem; 
+            quizImgTag.alt = `Imagem de destaque - ${dadosCidade.nome}`;
+        }
+        // --- FIM PRÉ-CARREGAMENTO ---
+
       // Embaralha as perguntas e seleciona as 3 primeiras
       const perguntasEmbaralhadas = dadosCidade.perguntas.sort(() => 0.5 - Math.random());
       perguntasDoQuiz = perguntasEmbaralhadas.slice(0, 3);
@@ -100,7 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
       quizFeedback.textContent = "";
       quizFeedback.className = "";
       quizOpcoes.classList.remove("respondido");
-      quizImagem.style.display = "none";
       
       quizCityName.textContent = `Ajude a Unidade Móvel chegar em ${dadosCidade.nome}`;
 
@@ -169,56 +186,41 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 2000);
   }
 
+    // --- FUNÇÃO FINALIZAR QUIZ ADAPTADA (com feedback de falha original) ---
   function finalizarQuiz() {
     quizAtivo = false;
     travelBarContainer.style.display = "none";
     quizPergunta.style.display = "none";
     quizOpcoes.style.display = "none";
     
+    // Limpa qualquer feedback anterior das perguntas
+    quizFeedback.textContent = "";
+    quizFeedback.className = "";
+
     if (quizScore >= 2) { 
+      // Caso de SUCESSO
+      quizCityName.textContent = `Obrigado! A unidade móvel chegou em ${nomeCidadeAtual}`;
       quizFeedback.textContent = `🎉 Parabéns! Você acertou ${quizScore} de 3 perguntas.`;
       quizFeedback.className = "feedback-correto";
       
-      atualizarImagemCidade(cidadeIdAtual, () => {
-        quizCityName.textContent = `Obrigado! A unidade móvel chegou em ${nomeCidadeAtual}`;
-        quizImagem.style.display = "block";
-      });
+      if (quizImgTag.src) {
+            // Imagem aparece imediatamente por causa do pré-carregamento
+            quizImagem.style.display = "block";
+      } else {
+            quizImagem.style.display = "none";
+      }
 
     } else {
-      quizFeedback.textContent = `😔 Você acertou apenas ${quizScore} de 3 perguntas.`;
+      // Caso de FALHA: Mantém o feedback original
+      quizCityName.textContent = `Tente novamente para enviar a unidade móvel a ${nomeCidadeAtual}.`; // Mantém um título de falha
+      quizFeedback.textContent = `😔 Você acertou apenas ${quizScore} de 3 perguntas.`; // O feedback original!
       quizFeedback.className = "feedback-incorreto";
+      quizImagem.style.display = "none"; // Garante que a imagem está escondida
     }
   }
+    // --- FIM DA FUNÇÃO FINALIZAR QUIZ ADAPTADA ---
 
-  function atualizarImagemCidade(cidadeId, onImageLoaded) {
-    fetch(`quiz/${cidadeId}.json`)
-      .then((response) => response.json())
-      .then((dadosCidade) => {
-        if (dadosCidade.imagens && dadosCidade.imagens.length > 0) {
-          const indiceImagem = Math.floor(Math.random() * dadosCidade.imagens.length);
-          let caminhoImagem = dadosCidade.imagens[indiceImagem];
-
-          if (!caminhoImagem.startsWith("imagens/")) {
-            caminhoImagem = `imagens/${cidadeId}/${caminhoImagem}`;
-          }
-
-          quizImgTag.alt = `Imagem de destaque - ${dadosCidade.nome}`;
-
-          quizImgTag.onload = () => onImageLoaded();
-          quizImgTag.onerror = () => {
-            console.error("Erro ao carregar a imagem:", caminhoImagem);
-            quizImagem.style.display = "none";
-          };
-          quizImgTag.src = caminhoImagem;
-        } else {
-          quizImagem.style.display = "none";
-        }
-      })
-      .catch((error) => {
-        console.error("Erro ao carregar dados da cidade:", error);
-        quizImagem.style.display = "none";
-      });
-  }
+  // A função 'atualizarImagemCidade' foi removida, pois sua lógica foi integrada em 'iniciarQuiz'.
 
   function fecharQuiz() {
     quizOverlay.style.display = "none";
@@ -226,6 +228,13 @@ document.addEventListener("DOMContentLoaded", function () {
     quizAtivo = false;
     travelBarContainer.style.display = "none";
     mapaSVG.style.pointerEvents = "auto";
+    
+    // Limpeza completa
+    quizImgTag.src = ""; 
+    quizImgTag.alt = ""; 
+    quizFeedback.textContent = "";
+    quizFeedback.className = "";
+    quizCityName.textContent = ""; 
   }
 
   quizCloseBtn.addEventListener("click", fecharQuiz);
