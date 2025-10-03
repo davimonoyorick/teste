@@ -75,10 +75,7 @@ body {
   height: auto;
   z-index: 50;
   opacity: 0.9;
-
 }
-
-
 
 /* ==========================================================================
    4. MENU INICIAL (FLUTUANTE)
@@ -105,30 +102,34 @@ body {
 }
 
 #start-menu-content {
-  background-color: white;
-  padding: 40px;
-  border-radius: 16px;
+  background: linear-gradient(135deg, #ffffff, #f0f8ff);
+  padding: 50px 40px;
+  border-radius: 20px;
   text-align: center;
-  max-width: 450px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-  animation: popIn 0.5s ease-out;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  animation: popIn 0.6s ease-out;
+  border: 2px solid #e3f2fd;
+}
+
+#start-menu-content h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #004080;
+  font-weight: 700;
+}
+
+#start-menu-content p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 35px;
+  color: #444;
 }
 
 @keyframes popIn {
   from { transform: scale(0.8); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
-
-#start-menu-content p {
-  font-size: 1.25em;
-  line-height: 1.6;
-  margin-bottom: 30px;
-  color: #555;
-}
-
-/* ==========================================================================
-   5. MODAL DO QUIZ (SEM ROLAGEM)
-   ========================================================================== */
 
 /* ==========================================================================
    5. MODAL DO QUIZ (SEM ROLAGEM)
@@ -151,7 +152,7 @@ body {
 
 #quiz-modal-content {
   background-color: #ffffff;
-  border-radius: 16px; /* Borda arredondada do modal */
+  border-radius: 16px;
   width: 90vw;
   max-width: 550px;
   text-align: center;
@@ -163,25 +164,19 @@ body {
   height: auto;
   max-height: 95vh;
   overflow: hidden;
-  padding-bottom: 15px; /* Manter padding inferior */
-  padding-left: 15px; /* Manter padding lateral */
-  padding-right: 15px; /* Manter padding lateral */
-  padding-top: 0; /* REMOVIDO PADDING SUPERIOR para o h2 ocupar */
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
 }
 
 #quiz-modal-content h2 {
   background-color: #007bff;
   color: white;
-  
-  /* Margens negativas para o h2 se estender */
-  margin: 0 -15px 10px -15px; /* Top, Right, Bottom, Left. Ajustado para padding do modal */
-  
+  margin: 0 -15px 10px -15px;
   padding: 10px;
   font-size: clamp(1rem, 2.5vw, 1.3rem);
-  
-  /* Bordas arredondadas do h2 devem corresponder às do modal */
   border-radius: 16px 16px 0 0; 
-  
   margin-bottom: 10px;
 }
 
@@ -258,9 +253,8 @@ body {
 }
 
 /* Imagem do quiz */
-/* Imagem do quiz */
 #quiz-imagem {
-  height: clamp(220px, 35vh, 400px); /* Aumentado a altura mínima e preferencial */
+  height: clamp(220px, 35vh, 400px);
   width: 100%;
   padding: 5px;
   background-color: #e9ecef;
@@ -274,7 +268,6 @@ body {
   display: block;
   object-fit: contain;
 }
-
 
 /* ==========================================================================
    6. BOTÕES
@@ -290,23 +283,25 @@ button {
 }
 
 #start-game-btn {
-  background: linear-gradient(45deg, #007bff, #0056b3);
+  background: linear-gradient(45deg, #007bff, #00bfff);
   color: white;
-  padding: 15px 35px;
+  padding: 14px 40px;
   font-size: 1.2em;
-  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+  border-radius: 30px;
+  box-shadow: 0 6px 18px rgba(0,123,255,0.35);
+  transition: all 0.3s ease;
 }
 
 #start-game-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 22px rgba(0,123,255,0.45);
 }
 
 #quiz-close-btn {
   background-color: #6c757d;
   color: white;
   padding: clamp(10px, 2vh, 12px) clamp(25px, 5vw, 30px);
-  margin: 15px auto; /* Centraliza o botão */
+  margin: 15px auto;
   font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
@@ -324,7 +319,7 @@ button {
   height: 40px;
   display: flex;
   align-items: center;
-  margin: 15px auto 0; /* Espaço para o botão Fechar */
+  margin: 15px auto 0;
 }
 
 #travel-bar {
@@ -359,7 +354,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 10px; /* Margem menor */
+  margin-bottom: 10px;
 }
 
 .quiz-dot {

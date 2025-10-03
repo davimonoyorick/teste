@@ -8,21 +8,58 @@
     <link rel="manifest" href="/manifest.json">
 
     <meta name="mobile-web-app-capable" content="yes">
-    
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon" href="/icons/itinerante-logo.png"> <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="/icons/itinerante-logo.png">
+    <meta name="theme-color" content="#000000">
 
     <title>Quiz Itinerante</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Estilos do vídeo modal */
+      #video-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      #video-overlay.hidden {
+        display: none;
+      }
+
+      #video-iframe {
+        width: 80vw;
+        height: 70vh;
+        border: none;
+        border-radius: 10px;
+        background: #000;
+      }
+
+      #video-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 28px;
+        color: white;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-
-    
     <div id="game-container">
       <div id="map-container"></div>
 
-      <img src="components/itinerante-logo.png" id="logo-jogo" alt="Logo do Jogo" />
+      <!-- Logo que abre o vídeo -->
+      <img src="components/itinerante-logo.png" id="logo-jogo" alt="Logo do Jogo" style="cursor:pointer;" />
       <img src="components/conselho-nacional.png" id="conselho-logo" alt="Conselho Logo" />
       <div id="truck">
         <img src="truck.png" id="caminhao" alt="caminhao" />
@@ -56,18 +93,50 @@
           <button id="quiz-close-btn">Fechar</button>
         </div>
       </div>
-
-            </div> <div id="start-menu-overlay">
-        <div id="start-menu-content">
-          <p>
-            Ajude a Unidade Móvel do SESI Itinerante a chegar nos municípios do
-            Maranhão.
-          </p>
-          <button id="start-game-btn">Iniciar Jogo</button>
-        </div>
-      </div>
-
-      <script src="script.js"></script>
     </div>
+    
+    <!-- Overlay do vídeo -->
+    <div id="video-overlay" class="hidden">
+        <iframe id="video-iframe" 
+            src="https://drive.google.com/file/d/1s37-bAEG3QaQlw-ZV7ED1eijcCen1P1d/preview" 
+            allow="autoplay"></iframe>
+        <button id="video-close-btn">✖</button>
+    </div>
+    
+    <!-- Tela inicial -->
+    <div id="start-menu-overlay">
+        <div id="start-menu-content">
+          <h1>Conheça o Sesi Itinerante e ajude a Unidade Móvel a chegar nos municípios</h1>
+          <button id="video-btn">Assistir Vídeo</button>
+          <button id="start-game-btn" style="margin-top: 10px; background-color: #6c757d;">Iniciar Jogo</button>
+        </div>
+    </div>
+
+    <script>
+      // Seletores
+      const videoOverlay = document.getElementById("video-overlay");
+      const videoIframe = document.getElementById("video-iframe");
+      const videoCloseBtn = document.getElementById("video-close-btn");
+      const videoBtn = document.getElementById("video-btn");
+      const logoJogo = document.getElementById("logo-jogo");
+
+      // Abrir vídeo ao clicar no botão ou na logo
+      videoBtn.addEventListener("click", () => {
+        videoOverlay.classList.remove("hidden");
+      });
+
+      logoJogo.addEventListener("click", () => {
+        videoOverlay.classList.remove("hidden");
+      });
+
+      // Fechar vídeo
+      videoCloseBtn.addEventListener("click", () => {
+        videoOverlay.classList.add("hidden");
+        // reseta o iframe para parar o vídeo
+        videoIframe.src = videoIframe.src;
+      });
+    </script>
+
+    <script src="script.js"></script>
   </body>
 </html>
